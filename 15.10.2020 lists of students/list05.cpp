@@ -2,7 +2,7 @@
 
 int list05 (List_node * head)
 {
-	int max_length = 0, length = 0;
+	int max_length = 1, length = 1;
 	List_node * cur_el = head, *next_el;
 	
 	if (head == nullptr)
@@ -19,7 +19,7 @@ int list05 (List_node * head)
 		{
 			if (length > max_length)
 				max_length = length;
-			length = 0;
+			length = 1;
 		}
 		cur_el = next_el;
 		next_el = next_el->get_next ();

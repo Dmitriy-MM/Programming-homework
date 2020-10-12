@@ -13,11 +13,11 @@ int list03 (List_node * head)
 		return 1;
 	next_el = cur_el->get_next ();
 	
-	if (*prev_el > *cur_el)
+	if (*prev_el >= *cur_el)
 		amount++;
 	while (next_el != nullptr)
 	{
-		if ((*prev_el < *cur_el) && (*cur_el > *next_el))
+		if ((*prev_el <= *cur_el) && (*cur_el >= *next_el))
 		{
 			amount++;
 		}
@@ -25,7 +25,7 @@ int list03 (List_node * head)
 		cur_el = next_el;
 		next_el = next_el->get_next ();
 	}
-	if (*cur_el > *prev_el)
+	if (*cur_el >= *prev_el)
 		amount++;
 	
 	return amount;

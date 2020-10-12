@@ -71,5 +71,6 @@ int main (int argc, char * argv[])
 	printf ("---------------------------\nResult = %d\n", result);
 	print_character_of_list (result);
 	printf ("Elapsed %.2lfs\n", (double) time/CLOCKS_PER_SEC);
+	delete_list(head);
 	return SUCCESS;
 }

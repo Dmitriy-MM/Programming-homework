@@ -20,11 +20,7 @@ int list01 (List_node * head)
 			num_maxes = 1;
 			max_el = head;
 		}
-		else if ( (*max_el) > (*head) )
-		{
-			;//Nothing to do.
-		}
-		else 
+		else if ( (*max_el) == (*head) )
 		{
 			num_maxes++;
 		}

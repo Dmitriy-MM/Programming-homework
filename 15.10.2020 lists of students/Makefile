@@ -2,7 +2,7 @@ CFLAGS = -W -Wall -Wunused -Wcast-align -Werror -pedantic -pedantic-errors  -Wfl
 
 BKY_FLAGS = -fsanitize=address -mfpmath=sse -fstack-protector-all -g -W -Wall -Wextra -Wunused -Wcast-align -Werror -pedantic -pedantic-errors -Wfloat-equal -Wpointer-arith -Wformat-security -Wmissing-format-attribute -Wformat=1 -Wwrite-strings -Wcast-align -Wno-long-long -Woverloaded-virtual -Wnon-virtual-dtor -Wcast-qual -Wno-suggest-attribute=format -O3
 
-#CFLAGS = $(BKY_FLAGS)
+CFLAGS = $(BKY_FLAGS)
 
 MAX_PRINT = 20
 
@@ -10,6 +10,12 @@ MAX_PRINT = 20
 
 all: other
 other: a01.out a02.out a03.out a04.out a05.out a06.out a07.out a08.out
+
+#%.o: %.cpp
+#	 g++ -c $(CFLAGS) $< -o $@
+#%.out: %.o
+#	g++ $(CFLAGS) $^ -o $@
+
 
 student.o: student.cpp student.h
 	g++ -c $(CFLAGS) $< -o $@
@@ -75,135 +81,131 @@ list08.o: list08.cpp list_tasks.h
 	g++ -c $(CFLAGS) $< -o $@
 	
 test1: a01.out
-	./a01.out $(MAX_PRINT) tests/test1_01.txt
+	$(VALGRIND) ./a01.out $(MAX_PRINT) tests/test1_01.txt
 	echo "Right answer is 5"
-	./a01.out $(MAX_PRINT) tests/test1_02.txt
+	$(VALGRIND) ./a01.out $(MAX_PRINT) tests/test1_02.txt
 	echo "Right answer is 4"
-	./a01.out $(MAX_PRINT) tests/test1_03.txt
+	$(VALGRIND) ./a01.out $(MAX_PRINT) tests/test1_03.txt
 	echo "Right answer is 4"
 
 test2: a02.out
-	./a02.out $(MAX_PRINT) tests/test2_01.txt
+	$(VALGRIND) ./a02.out $(MAX_PRINT) tests/test2_01.txt
 	echo "Right answer is 8"
-	./a02.out $(MAX_PRINT) tests/test2_02.txt
+	$(VALGRIND) ./a02.out $(MAX_PRINT) tests/test2_02.txt
 	echo "Right answer is 0"
-	./a02.out $(MAX_PRINT) tests/test2_03.txt
+	$(VALGRIND) ./a02.out $(MAX_PRINT) tests/test2_03.txt
 	echo "Right answer is 1"
-	./a02.out $(MAX_PRINT) tests/test2_04.txt
+	$(VALGRIND) ./a02.out $(MAX_PRINT) tests/test2_04.txt
 	echo "Right answer is 1"
 
 test3: a03.out
-	./a03.out $(MAX_PRINT) tests/test3_01.txt
+	$(VALGRIND) ./a03.out $(MAX_PRINT) tests/test3_01.txt
 	echo "Right answer is 4"
-	./a03.out $(MAX_PRINT) tests/test3_02.txt
+	$(VALGRIND) ./a03.out $(MAX_PRINT) tests/test3_02.txt
 	echo "Right answer is 1"
-	./a03.out $(MAX_PRINT) tests/test3_03.txt
+	$(VALGRIND) ./a03.out $(MAX_PRINT) tests/test3_03.txt
 	echo "Right answer is 1"
-	./a03.out $(MAX_PRINT) tests/test3_04.txt
+	$(VALGRIND) ./a03.out $(MAX_PRINT) tests/test3_04.txt
 	echo "Right answer is 1"
-	./a03.out $(MAX_PRINT) tests/test3_05.txt
-	echo "Right answer is 3"
-	./a03.out $(MAX_PRINT) tests/test3_06.txt
-	echo "Right answer is 4"
-	./a03.out $(MAX_PRINT) tests/test3_07.txt
-	echo "Right answer is 4"
+	$(VALGRIND) ./a03.out $(MAX_PRINT) tests/test3_05.txt
+	echo "Right answer is 5"
+	$(VALGRIND) ./a03.out $(MAX_PRINT) tests/test3_06.txt
+	echo "Right answer is 5"
+	$(VALGRIND) ./a03.out $(MAX_PRINT) tests/test3_07.txt
+	echo "Right answer is 7"
 
 test4: a04.out
-	./a04.out $(MAX_PRINT) tests/test4_01.txt
+	$(VALGRIND) ./a04.out $(MAX_PRINT) tests/test4_01.txt
 	echo "Right answer is 4"
-	./a04.out $(MAX_PRINT) tests/test4_02.txt
+	$(VALGRIND) ./a04.out $(MAX_PRINT) tests/test4_02.txt
 	echo "Right answer is 3"
-	./a04.out $(MAX_PRINT) tests/test4_03.txt
+	$(VALGRIND) ./a04.out $(MAX_PRINT) tests/test4_03.txt
 	echo "Right answer is 1"
-	./a04.out $(MAX_PRINT) tests/test4_04.txt
+	$(VALGRIND) ./a04.out $(MAX_PRINT) tests/test4_04.txt
 	echo "Right answer is 2"
-	./a04.out $(MAX_PRINT) tests/test4_05.txt
+	$(VALGRIND) ./a04.out $(MAX_PRINT) tests/test4_05.txt
 	echo "Right answer is 3"
-	./a04.out $(MAX_PRINT) tests/test4_06.txt
+	$(VALGRIND) ./a04.out $(MAX_PRINT) tests/test4_06.txt
 	echo "Right answer is 1"
-	./a04.out $(MAX_PRINT) tests/test4_07.txt
+	$(VALGRIND) ./a04.out $(MAX_PRINT) tests/test4_07.txt
 	echo "Right answer is 0"
-	./a04.out $(MAX_PRINT) tests/test4_08.txt
+	$(VALGRIND) ./a04.out $(MAX_PRINT) tests/test4_08.txt
 	echo "Right answer is 2"
-	./a04.out $(MAX_PRINT) tests/test4_09.txt
+	$(VALGRIND) ./a04.out $(MAX_PRINT) tests/test4_09.txt
 	echo "Right answer is 0"
 
 test5: a05.out
-	./a05.out $(MAX_PRINT) tests/test5_01.txt
-	echo "Right answer is 0"
-	./a05.out $(MAX_PRINT) tests/test5_02.txt
+	$(VALGRIND) ./a05.out $(MAX_PRINT) tests/test5_01.txt
 	echo "Right answer is 1"
-	./a05.out $(MAX_PRINT) tests/test5_03.txt
-	echo "Right answer is 4"
-	./a05.out $(MAX_PRINT) tests/test5_04.txt
-	echo "Right answer is 4"
-	./a05.out $(MAX_PRINT) tests/test5_05.txt
-	echo "Right answer is 4"
+	$(VALGRIND) ./a05.out $(MAX_PRINT) tests/test5_02.txt
+	echo "Right answer is 2"
+	$(VALGRIND) ./a05.out $(MAX_PRINT) tests/test5_03.txt
+	echo "Right answer is 5"
+	$(VALGRIND) ./a05.out $(MAX_PRINT) tests/test5_04.txt
+	echo "Right answer is 5"
+	$(VALGRIND) ./a05.out $(MAX_PRINT) tests/test5_05.txt
+	echo "Right answer is 5"
 	
 test6: a06.out
-	./a06.out $(MAX_PRINT) tests/test6_01.txt
+	$(VALGRIND) ./a06.out $(MAX_PRINT) tests/test6_01.txt
+	echo "Right answer is 0"
+	$(VALGRIND) ./a06.out $(MAX_PRINT) tests/test6_02.txt
+	echo "Right answer is 1"
+	$(VALGRIND) ./a06.out $(MAX_PRINT) tests/test6_03.txt
+	echo "Right answer is 2"
+	$(VALGRIND) ./a06.out $(MAX_PRINT) tests/test6_04.txt
 	echo "Right answer is 4"
-	./a06.out $(MAX_PRINT) tests/test6_02.txt
-	echo "Right answer is 3"
-	./a06.out $(MAX_PRINT) tests/test6_03.txt
-	echo "Right answer is 5"
-	./a06.out $(MAX_PRINT) tests/test6_04.txt
-	echo "Right answer is 3"
-	./a06.out $(MAX_PRINT) tests/test6_05.txt
-	echo "Right answer is 3"
+	$(VALGRIND) ./a06.out $(MAX_PRINT) tests/test6_05.txt
+	echo "Right answer is 2"
 	
 test7: a07.out
-	./a07.out $(MAX_PRINT) tests/test7_01.txt
+	$(VALGRIND) ./a07.out $(MAX_PRINT) tests/test7_01.txt
 	echo "Right answer is 0"
-	./a07.out $(MAX_PRINT) tests/test7_02.txt
+	$(VALGRIND) ./a07.out $(MAX_PRINT) tests/test7_02.txt
 	echo "Right answer is 0"
-	./a07.out $(MAX_PRINT) tests/test7_03.txt
+	$(VALGRIND) ./a07.out $(MAX_PRINT) tests/test7_03.txt
 	echo "Right answer is 0"
-	./a07.out $(MAX_PRINT) tests/test7_04.txt
+	$(VALGRIND) ./a07.out $(MAX_PRINT) tests/test7_04.txt
 	echo "Right answer is 0"
-	./a07.out $(MAX_PRINT) tests/test7_05.txt
+	$(VALGRIND) ./a07.out $(MAX_PRINT) tests/test7_05.txt
 	echo "Right answer is 0"
-	./a07.out $(MAX_PRINT) tests/test7_06.txt
+	$(VALGRIND) ./a07.out $(MAX_PRINT) tests/test7_06.txt
 	echo "Right answer is 0"
-	./a07.out $(MAX_PRINT) tests/test7_07.txt
+	$(VALGRIND) ./a07.out $(MAX_PRINT) tests/test7_07.txt
 	echo "Right answer is 0"
-	./a07.out $(MAX_PRINT) tests/test7_08.txt
+	$(VALGRIND) ./a07.out $(MAX_PRINT) tests/test7_08.txt
 	echo "Right answer is 2"
-	./a07.out $(MAX_PRINT) tests/test7_09.txt
+	$(VALGRIND) ./a07.out $(MAX_PRINT) tests/test7_09.txt
 	echo "Right answer is 4"
-	./a07.out $(MAX_PRINT) tests/test7_10.txt
+	$(VALGRIND) ./a07.out $(MAX_PRINT) tests/test7_10.txt
 	echo "Right answer is 1"
-	./a07.out $(MAX_PRINT) tests/test7_11.txt
+	$(VALGRIND) ./a07.out $(MAX_PRINT) tests/test7_11.txt
 	echo "Right answer is 0"
-	./a07.out $(MAX_PRINT) tests/test7_12.txt
+	$(VALGRIND) ./a07.out $(MAX_PRINT) tests/test7_12.txt
 	echo "Right answer is 1"
 
 test8: a08.out
-	./a08.out $(MAX_PRINT) tests/test8_01.txt
+	$(VALGRIND) ./a08.out $(MAX_PRINT) tests/test8_01.txt
 	echo "Right answer is 1"
-	./a08.out $(MAX_PRINT) tests/test8_02.txt
+	$(VALGRIND) ./a08.out $(MAX_PRINT) tests/test8_02.txt
 	echo "Right answer is 2"
-	./a08.out $(MAX_PRINT) tests/test8_03.txt
+	$(VALGRIND) ./a08.out $(MAX_PRINT) tests/test8_03.txt
 	echo "Right answer is 2"
-	./a08.out $(MAX_PRINT) tests/test8_04.txt
+	$(VALGRIND) ./a08.out $(MAX_PRINT) tests/test8_04.txt
 	echo "Right answer is 2"
-	./a08.out $(MAX_PRINT) tests/test8_05.txt
+	$(VALGRIND) ./a08.out $(MAX_PRINT) tests/test8_05.txt
 	echo "Right answer is 3"
-	./a08.out $(MAX_PRINT) tests/test8_06.txt
+	$(VALGRIND) ./a08.out $(MAX_PRINT) tests/test8_06.txt
 	echo "Right answer is 2"
-	./a08.out $(MAX_PRINT) tests/test8_07.txt
+	$(VALGRIND) ./a08.out $(MAX_PRINT) tests/test8_07.txt
 	echo "Right answer is 2"
-	./a08.out $(MAX_PRINT) tests/test8_08.txt
+	$(VALGRIND) ./a08.out $(MAX_PRINT) tests/test8_08.txt
 	echo "Right answer is 8"
-	./a08.out $(MAX_PRINT) tests/test8_09.txt
+	$(VALGRIND) ./a08.out $(MAX_PRINT) tests/test8_09.txt
 	echo "Right answer is 9"
-	./a08.out $(MAX_PRINT) tests/test8_10.txt
-	echo "Right answer is 10"
+	$(VALGRIND) ./a08.out $(MAX_PRINT) tests/test8_10.txt
+	echo 'Right answer is 10';
 
-# %.o: %.cpp
-	# g++ -c $(CFLAGS) $< -o $@
-# %.out: %.o
-	# g++ $(CFLAGS) $^ -o $@
 
 clean: 
 	rm -f *.out

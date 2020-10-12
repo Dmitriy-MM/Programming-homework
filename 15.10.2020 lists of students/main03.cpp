@@ -45,5 +45,6 @@ int main (int argc, char * argv[])
 	
 	printf ("---------------------------\nAmount of elements thats are local maximums = %d\n", result);
 	printf ("Elapsed %.2lfs\n", (double) time/CLOCKS_PER_SEC);
+	delete_list(head);
 	return SUCCESS;
 }

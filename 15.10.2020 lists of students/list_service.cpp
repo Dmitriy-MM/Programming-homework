@@ -3,10 +3,8 @@
 int read_list (const char * name, List_node *& head)
 {
 	FILE *fp = nullptr;
-	List_node *tail = nullptr;
-	const int LEN = 1234;
-	char buf[LEN] = {0};
-	int value;
+	List_node *tail = nullptr, *tmp = nullptr;
+	int ret_code;
 	
 	if (head != nullptr)
 	{
@@ -15,33 +13,51 @@ int read_list (const char * name, List_node *& head)
 	
 	fp = fopen (name, "r");
 	if (fp == nullptr)
-	{	//Файл не открылся.
+	{
 		return LIST_SERVICE_RET_CODES::OPEN_FILE_ERROR;
 	}
 	
 	//Чтение головы.
-	if (fscanf (fp, "%s%d", buf, &value) != 2)
+	head = new List_node;
+	ret_code = head->read (fp);
+	if (ret_code != Student::SUCCESS)
 	{
-		//В файле не получилось считать голову.
+		//Поскольку чтения не получилось - head возвращаем в исходное состояние,
+		//а память ему выделенную - очищаем.
+		delete head;
+		head = nullptr;
+		if (!feof (fp))
+		{
+			fclose (fp);
+			return LIST_SERVICE_RET_CODES::READ_HEAD_ERROR;
+		}
 		fclose (fp);
-		return LIST_SERVICE_RET_CODES::READ_HEAD_ERROR;
+		//Пустой файл мы не считаем ошибкой.
+		return LIST_SERVICE_RET_CODES::SUCCESS;
 	}
-	else 
-	{
-		head = new List_node (buf, value);
-	}
-	
+
 	tail = head;
-	while ( (fscanf (fp, "%s%d", buf, &value) == 2) )
+	while (1)
 	{
-		tail->set_next (new List_node (buf, value));
+		tmp = new List_node;
+		ret_code = tmp->read (fp);
+		if (ret_code != Student::SUCCESS)
+		{
+			delete tmp;
+			if (feof (fp))
+				break;
+			delete_list (head), fclose (fp);
+			return LIST_SERVICE_RET_CODES::BAD_FORMAT_ERROR;
+		} 
+		tail->set_next (tmp);
 		tail = tail->get_next();
 	}
+	tmp = nullptr;
+
 	if (!feof (fp))
 	{
 		//Файл не был считан до конца.
-		delete_list (head);
-		fclose (fp);
+		delete_list (head), fclose (fp);
 		return LIST_SERVICE_RET_CODES::NO_REACH_EOF_ERROR;
 	}
 	
@@ -50,16 +66,18 @@ int read_list (const char * name, List_node *& head)
 	return LIST_SERVICE_RET_CODES::SUCCESS;
 }
 
-void delete_list (List_node * head)
+void delete_list (List_node *& head_arg)
 {
-	List_node * next;
+	List_node * next, * head;
 	
+	head = head_arg;
 	while (head != nullptr)
 	{
 		next = head->get_next ();
-		head->~List_node ();
+		delete head;
 		head = next;
 	}
+	head_arg = nullptr;
 }
 
 void print_list (List_node * head, int max_print, FILE *fp)
@@ -88,6 +106,9 @@ void LIST_SERVICE_RET_CODES::error_handler (int er)
 			break;
 		case LIST_SERVICE_RET_CODES:: NO_REACH_EOF_ERROR:
 			printf ("Can't reach EOF\n");
+			break;
+		case LIST_SERVICE_RET_CODES::BAD_FORMAT_ERROR:
+			printf ("Incorrect format of data\n");
 			break;
 		default: 
 			printf ("Unknown error in \"read_list\" function\n");

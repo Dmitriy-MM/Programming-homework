@@ -11,12 +11,13 @@ struct LIST_SERVICE_RET_CODES
 		INPUT_NON_ZERO_PTR_ERROR,
 		OPEN_FILE_ERROR,
 		READ_HEAD_ERROR,
-		NO_REACH_EOF_ERROR
+		NO_REACH_EOF_ERROR,
+		BAD_FORMAT_ERROR
 	};
 	static void error_handler (int er);
 };
 
-void delete_list (List_node *);
+void delete_list (List_node *&);
 int read_list (const char * name, List_node *&);
 void print_list (List_node *, int, FILE *fp = stdout);
 void error_handler (int);

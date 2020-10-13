@@ -1,85 +1,53 @@
 CFLAGS = -W -Wall -Wunused -Wcast-align -Werror -pedantic -pedantic-errors  -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wno-long-long -Wmissing-declarations
-
-BKY_FLAGS = -fsanitize=address -mfpmath=sse -fstack-protector-all -g -W -Wall -Wextra -Wunused -Wcast-align -Werror -pedantic -pedantic-errors -Wfloat-equal -Wpointer-arith -Wformat-security -Wmissing-format-attribute -Wformat=1 -Wwrite-strings -Wcast-align -Wno-long-long -Woverloaded-virtual -Wnon-virtual-dtor -Wcast-qual -Wno-suggest-attribute=format -O3
-
+#BKY_FLAGS = -fsanitize=address -mfpmath=sse -fstack-protector-all -g -W -Wall -Wextra -Wunused -Wcast-align -Werror -pedantic -pedantic-errors -Wfloat-equal -Wpointer-arith -Wformat-security -Wmissing-format-attribute -Wformat=1 -Wwrite-strings -Wcast-align -Wno-long-long -Woverloaded-virtual -Wnon-virtual-dtor -Wcast-qual -Wno-suggest-attribute=format -O3
 CFLAGS = $(BKY_FLAGS)
-
 MAX_PRINT = 20
-
 #VALGRIND = valgrind
 
-all: other
-other: a01.out a02.out a03.out a04.out a05.out a06.out a07.out a08.out
+a%.out: main%.o 
+	g++ $(CFLAGS) $^ -o $@
+%.o: %.cpp
+	 g++ -c $(CFLAGS) $< -o $@
 
-#%.o: %.cpp
-#	 g++ -c $(CFLAGS) $< -o $@
-#%.out: %.o
-#	g++ $(CFLAGS) $^ -o $@
-
+all: a01.out a02.out a03.out a04.out a05.out a06.out a07.out a08.out
+other: 
 
 student.o: student.cpp student.h
-	g++ -c $(CFLAGS) $< -o $@
 list_node.o: list_node.cpp list_node.h student.h
-	g++ -c $(CFLAGS) $< -o $@
 list_service.o: list_service.cpp list_service.h list_node.h
-	g++ -c $(CFLAGS) $< -o $@
 
 a01.out: main01.o list01.o student.o list_node.o list_service.o
-	g++ $(CFLAGS) $^ -o $@
 main01.o: main01.cpp
-	g++ -c $(CFLAGS) $< -o $@
 list01.o: list01.cpp list_tasks.h
-	g++ -c $(CFLAGS) $< -o $@
-	
+
 a02.out: main02.o list02.o student.o list_node.o list_service.o
-	g++ $(CFLAGS) $^ -o $@
 main02.o: main02.cpp
-	g++ -c $(CFLAGS) $< -o $@
 list02.o: list02.cpp list_tasks.h
-	g++ -c $(CFLAGS) $< -o $@
 
 a03.out: main03.o list03.o student.o list_node.o list_service.o
-	g++ $(CFLAGS) $^ -o $@
 main03.o: main03.cpp
-	g++ -c $(CFLAGS) $< -o $@
 list03.o: list03.cpp list_tasks.h
-	g++ -c $(CFLAGS) $< -o $@
-	
+
 a04.out: main04.o list04.o student.o list_node.o list_service.o
-	g++ $(CFLAGS) $^ -o $@
 main04.o: main04.cpp
-	g++ -c $(CFLAGS) $< -o $@
 list04.o: list04.cpp list_tasks.h
-	g++ -c $(CFLAGS) $< -o $@
 
 a05.out: main05.o list05.o student.o list_node.o list_service.o
-	g++ $(CFLAGS) $^ -o $@
 main05.o: main05.cpp
-	g++ -c $(CFLAGS) $< -o $@
 list05.o: list05.cpp list_tasks.h
-	g++ -c $(CFLAGS) $< -o $@
 
 a06.out: main06.o list06.o student.o list_node.o list_service.o
-	g++ $(CFLAGS) $^ -o $@
 main06.o: main06.cpp
-	g++ -c $(CFLAGS) $< -o $@
 list06.o: list06.cpp list_tasks.h
-	g++ -c $(CFLAGS) $< -o $@
 
 a07.out: main07.o list07.o student.o list_node.o list_service.o
-	g++ $(CFLAGS) $^ -o $@
 main07.o: main07.cpp
-	g++ -c $(CFLAGS) $< -o $@
 list07.o: list07.cpp list_tasks.h
-	g++ -c $(CFLAGS) $< -o $@
 
 a08.out: main08.o list08.o student.o list_node.o list_service.o
-	g++ $(CFLAGS) $^ -o $@
 main08.o: main08.cpp
-	g++ -c $(CFLAGS) $< -o $@
 list08.o: list08.cpp list_tasks.h
-	g++ -c $(CFLAGS) $< -o $@
-	
+
 test1: a01.out
 	$(VALGRIND) ./a01.out $(MAX_PRINT) tests/test1_01.txt
 	echo "Right answer is 5"
@@ -145,7 +113,7 @@ test5: a05.out
 	echo "Right answer is 5"
 	$(VALGRIND) ./a05.out $(MAX_PRINT) tests/test5_05.txt
 	echo "Right answer is 5"
-	
+
 test6: a06.out
 	$(VALGRIND) ./a06.out $(MAX_PRINT) tests/test6_01.txt
 	echo "Right answer is 0"
@@ -157,7 +125,7 @@ test6: a06.out
 	echo "Right answer is 4"
 	$(VALGRIND) ./a06.out $(MAX_PRINT) tests/test6_05.txt
 	echo "Right answer is 2"
-	
+
 test7: a07.out
 	$(VALGRIND) ./a07.out $(MAX_PRINT) tests/test7_01.txt
 	echo "Right answer is 0"
@@ -206,9 +174,7 @@ test8: a08.out
 	$(VALGRIND) ./a08.out $(MAX_PRINT) tests/test8_10.txt
 	echo 'Right answer is 10';
 
-
 clean: 
 	rm -f *.out
 	rm -f *.o
 	rm -f *.exe
-	

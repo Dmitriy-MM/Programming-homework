@@ -163,3 +163,12 @@ int Student::operator >= (const Student &right_operand)
 		return (value - right_operand.value >= 0);
 	return (res >= 0);
 }
+
+int Student::operator == (const Student &right_operand)
+{
+	int res;
+	res = strcmp (name, right_operand.name);
+	if (res == 0)
+		return (value - right_operand.value == 0);
+	return (res == 0); //The same as return 0.
+}

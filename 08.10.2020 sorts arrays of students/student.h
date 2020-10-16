@@ -38,6 +38,7 @@ class Student
 		int operator > (const Student&);
 		int operator <= (const Student&);
 		int operator >= (const Student&);
+		int operator == (const Student&);
 		friend int input_arr (Student *, int, int, const char *);
 };
 #endif //STUDENT_H

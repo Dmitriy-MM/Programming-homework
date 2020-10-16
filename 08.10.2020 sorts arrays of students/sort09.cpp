@@ -1,23 +1,28 @@
 #include "sorts.h"
 
+
 void sort09(Student arr[], int n)
 {
     int i = 0, j = n-1;
-	Student x;
-	
+	int index_x;
+
     while (n > 1)
     {
-		x = arr[n / 2];
+		index_x = n/2;
         while (i <= j)
         {
-            while (x > arr[i])
+            while (arr[index_x] > arr[i])
                 i++;
-            while (arr[j] > x)
+            while (arr[j] > arr[index_x])
                 j--;
             if (i <= j)
             {
                 arr[i].swap (arr[j]);
-                i++; 
+				if (i == index_x)
+					index_x = j;
+				else if (j == index_x)
+					index_x = i;
+				i++;
 				j--;
             }
         }

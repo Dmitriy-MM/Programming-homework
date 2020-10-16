@@ -9,12 +9,12 @@ void sort02 (Student arrA[], int nA, Student arrB[], int nB, Student arrC[])
     {
         if(arrA[i] < arrB[j])
         {
-            arrC[k] = arrA[i];
+            arrC[k].swap(arrA[i]);
             i++;
         }
         else
         {
-            arrC[k] = arrB[j];
+            arrC[k].swap(arrB[j]);
             j++;
         }
         k = i + j;
@@ -22,13 +22,13 @@ void sort02 (Student arrA[], int nA, Student arrB[], int nB, Student arrC[])
    
     while(i < nA)
     {
-        arrC[k] = arrA[i];
+        arrC[k].swap(arrA[i]);
         k++;
         i++;
     }
     while(j < nB)
     {
-        arrC[k] = arrB[j];
+        arrC[k].swap(arrB[j]);
         k++;
         j++;
     }

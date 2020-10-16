@@ -5,7 +5,7 @@ int sort01 (Student* arr, int length, Student * elem);
 //Из упорядоченных arrA и arrB сделать упорядоченный	arrC.
 void sort02 (Student arrA[], int nA, Student arrB[], int nB, Student arrC[]);
 //Перестановка элементов неубывающего массива так, чтобы были сначале меньше x, потом больше x.
-int sort03 (Student arr[], int n, Student * x);
+ int sort03 (Student arr[], int n, Student * x);
 //Пузырек.
 void sort04 (Student arr[], int n);
 //Сортировка нахождением минимума.

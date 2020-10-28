@@ -108,6 +108,7 @@ void List::sort05 (void)
 			this->sort05 ();
 			lower = this->head;
 			join (join (sorted_lower, lower), mid); //Склеить (sorted_lower + lower) + mid.
+			
 			if (sorted_lower == nullptr)
 			{
 				if (lower != nullptr)
@@ -119,6 +120,7 @@ void List::sort05 (void)
 				this->head = upper;
 			else
 			{
+				join (sorted_lower, sorted_upper);
 				this->head = sorted_lower;
 				return;
 			}

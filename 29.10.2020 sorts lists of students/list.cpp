@@ -132,15 +132,21 @@ int List::get_length (void) const
 	return i;
 }
 
-int List::is_it_sorted (void)
+int List::get_less_than_prev (void)
 {
 	List_node * curr = this->head;
+	int count = 0, i = 0;
+	
+	if (curr != nullptr)
+		i++;
 	while ((curr != nullptr) && (curr->next != nullptr))
 	{
+		i++;
 		if (*curr->next < *curr)
-			return 0;
+			count++;
 		curr = curr->next;
 	}
-	return 1;
+	printf ("Length of list is %d\n", i);
+	return count;
 }
 

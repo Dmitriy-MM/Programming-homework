@@ -11,7 +11,7 @@ class List
 		void clear_list (void);
 
 		void swap (List * second_list);
-		void merge_with (List_node * head_A, List_node * head_B);
+		List_node * merge_with (List_node * head_A, List_node * head_B, List_node * last);
 		List_node * join (List_node *, List_node *);
 	public:
 		int read (const char * name);
@@ -31,7 +31,7 @@ class List
 			clear_list ();
 		}
 
-		int is_it_sorted (void);
+		int get_less_than_prev (void);
 		//Пузырек.
 		void sort01 (void);
 		//Нахождение минимума

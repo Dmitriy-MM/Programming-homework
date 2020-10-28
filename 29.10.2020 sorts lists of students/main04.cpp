@@ -3,7 +3,6 @@
 
 #include "list.h"
 
-#define DO_CHECK 0
 
 enum RETURN_CODES {
 	SUCCESS = 0,
@@ -46,13 +45,8 @@ int main (int argc, char * argv[])
 	
 	printf ("---------------------------\nAfter:\n");
 	input_list->print (max_print);
-#if DO_CHECK
-	is_sorted = input_list->is_it_sorted ();
-	if (is_sorted)
-		printf ("SUCCESS, list is sorted\n");
-	else
-		printf ("GRUSTNO, no list ne sorted\n");
-#endif
+	printf ("Num of lesser than prev: %d\n", input_list->get_less_than_prev ());
+			printf ("Length of list %d\n", input_list->get_length ());
 	printf ("Elapsed %.2lfs\n", (double) time/CLOCKS_PER_SEC);
 	delete input_list;
 	return SUCCESS;

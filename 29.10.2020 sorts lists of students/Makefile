@@ -2,18 +2,18 @@ CFLAGS = -W -Wall -Wunused -Wcast-align -Werror -pedantic -pedantic-errors  -Wfl
 BKY_FLAGS = -fsanitize=address -mfpmath=sse -fstack-protector-all -g -W -Wall -Wextra -Wunused -Wcast-align -Werror -pedantic -pedantic-errors -Wfloat-equal -Wpointer-arith -Wformat-security -Wmissing-format-attribute -Wformat=1 -Wwrite-strings -Wcast-align -Wno-long-long -Woverloaded-virtual -Wnon-virtual-dtor -Wcast-qual -Wno-suggest-attribute=format 
 CFLAGS = $(BKY_FLAGS)
 
-MAX_PRINT = 30
-VALGRIND = valgrind
-CFLAGS = -W -Wall -Wcast-align -pedantic -pedantic-errors  -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wno-long-long -Wmissing-declarations
+MAX_PRINT = 10
+#VALGRIND = valgrind
+CFLAGS = -O3 -W -Wall -Wcast-align -pedantic -pedantic-errors  -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wno-long-long -Wmissing-declarations
 
 a%.out: main%.o 
 	g++ $(CFLAGS) $^ -o $@
 %.o: %.cpp
 	 g++ -c $(CFLAGS) $< -o $@
 
-all: a05.out
+current: done
 other: 
-done: a01.out a02.out a03.out a04.out
+done: a01.out a02.out a03.out a04.out a05.out
 
 student.o: student.cpp student.h
 list_node.o: list_node.cpp list_node.h student.h
@@ -44,34 +44,36 @@ simple_test%: a0%.out
 	$(VALGRIND) ./$< $(MAX_PRINT) tests/empty.txt
 	echo "------------------SINGLETON----------------------"
 	$(VALGRIND) ./$< $(MAX_PRINT) tests/singleton.txt
+	echo "------------------TETRA--------------------------"
+	$(VALGRIND) ./$< $(MAX_PRINT) tests/tetra.txt
 	echo "------------------SORTED-------------------------"
-	$(VALGRIND) ./$< $(MAX_PRINT) tests/sorted.txt
+	$(VALGRIND) ./$< $(MAX_PRINT) tests/sorted_10.txt
 	echo "------------------REVERSE------------------------"
-	$(VALGRIND) ./$< $(MAX_PRINT) tests/reverse.txt
+	$(VALGRIND) ./$< $(MAX_PRINT) tests/reverse_10.txt
 	echo "------------------REVERSE_x10--------------------"
-	$(VALGRIND) ./$< $(MAX_PRINT) tests/reverse_x10.txt
+	$(VALGRIND) ./$< $(MAX_PRINT) tests/reverse_10x10.txt
 
-random_test%: a0%.out
-	echo "------------------RANDOM100----------------------"
-	$(VALGRIND) ./$< $(MAX_PRINT) tests/random100.txt
-	echo "------------------RANDOM_1e6---------------------"
-	./$< $(MAX_PRINT) tests/random_1e6.txt
+rand_simple_test%: a0%.out
+	echo "------------------RANDOM_1e2----------------------"
+	$(VALGRIND) ./$< $(MAX_PRINT) random_tests/random_1e2.txt
+	echo "------------------RANDOM_1e3---------------------"
+	$(VALGRIND) ./$< $(MAX_PRINT) random_tests/random_1e3.txt
+	echo "------------------RANDOM_1e4---------------------"
+	$(VALGRIND) ./$< $(MAX_PRINT) random_tests/random_1e4.txt
+	echo "------------------RANDOM_1e5---------------------"
+	$(VALGRIND) ./$< $(MAX_PRINT) random_tests/random_1e5.txt
 
-all_test%: a0%.out
-	echo "------------------EMPTY FILE---------------------"
-	$(VALGRIND) ./$< $(MAX_PRINT) tests/empty.txt
-	echo "------------------SINGLETON----------------------"
-	$(VALGRIND) ./$< $(MAX_PRINT) tests/singleton.txt
-	echo "------------------SORTED-------------------------"
-	$(VALGRIND) ./$< $(MAX_PRINT) tests/sorted.txt
-	echo "------------------REVERSE------------------------"
-	$(VALGRIND) ./$< $(MAX_PRINT) tests/reverse.txt
-	echo "------------------REVERSE_x10--------------------"
-	$(VALGRIND) ./$< $(MAX_PRINT) tests/reverse_x10.txt
-	echo "------------------RANDOM100----------------------"
-	$(VALGRIND) ./$< $(MAX_PRINT) tests/random100.txt
-	echo "------------------RANDOM_1e6---------------------"
-	./$< $(MAX_PRINT) tests/random_1e6.txt
+rand_hard_test%: a0%.out
+	echo "------------------RANDOM_1e6----------------------"
+	./$< $(MAX_PRINT) random_tests/random_1e6.txt
+	echo "------------------RANDOM_1e7---------------------"
+	./$< $(MAX_PRINT) random_tests/random_1e7.txt
+	echo "------------------RANDOM_1e8---------------------"
+	./$< $(MAX_PRINT) random_tests/random_1e8.txt
+
+test_bubble: a01.out
+	echo "------------------RANDOM_1e6----------------------"
+	./$< $(MAX_PRINT) tests/bubble_1e6.txt
 
 clean: 
 	rm -f *.out

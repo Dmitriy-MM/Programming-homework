@@ -86,37 +86,36 @@ void List::sort04 (void)
 	List * second_list = new List;
 	List_node * head_list_A = nullptr, * head_list_B = nullptr, *curr = nullptr, *curr_A, *curr_B;
 	List_node * last = nullptr;
-	int length, block_size = 1, i, shift;
+	int length, block_size = 1, i;
 	
 	length = this->get_length ();
 	
 	while (block_size < length)
 	{
 		curr = this->head;
-		shift = 1;
 		last = nullptr;
-		while (shift < length)
+		while (curr != nullptr)
 		{
 			//Отрезаем два куска размера block_size от списка.
 			head_list_A = curr_A = curr;
 			if (curr != nullptr)
-				curr = curr->next, shift++;
+				curr = curr->next;
 
 			for (i = 1; (i < block_size) && (curr != nullptr); i++)
 			{
 				curr_A = curr_A->next = curr;
-				curr = curr->next, shift++;
+				curr = curr->next;
 			}
 			if (curr_A != nullptr)
 				curr_A->next = nullptr;
 			
 			head_list_B = curr_B = curr;
 			if (curr != nullptr)
-				curr = curr->next, shift++;
+				curr = curr->next;
 			for (i = 1; (i < block_size) && (curr != nullptr); i++)
 			{
 				curr_B = curr_B->next = curr;
-				curr = curr->next, shift++;
+				curr = curr->next;
 			}
 			if (curr_B != nullptr)
 				curr_B->next = nullptr;

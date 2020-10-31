@@ -4,7 +4,7 @@ CFLAGS = $(BKY_FLAGS)
 
 MAX_PRINT = 10
 #VALGRIND = valgrind
-CFLAGS = -O3 -W -Wall -Wcast-align -pedantic -pedantic-errors  -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wno-long-long -Wmissing-declarations
+#CFLAGS = -O3 -W -Wall -Wcast-align -pedantic -pedantic-errors  -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wno-long-long -Wmissing-declarations
 
 a%.out: main%.o 
 	g++ $(CFLAGS) $^ -o $@
@@ -44,6 +44,8 @@ simple_test%: a0%.out
 	$(VALGRIND) ./$< $(MAX_PRINT) tests/empty.txt
 	echo "------------------SINGLETON----------------------"
 	$(VALGRIND) ./$< $(MAX_PRINT) tests/singleton.txt
+	echo "------------------TRIPLET------------------------"
+	$(VALGRIND) ./$< $(MAX_PRINT) tests/triple.txt
 	echo "------------------TETRA--------------------------"
 	$(VALGRIND) ./$< $(MAX_PRINT) tests/tetra.txt
 	echo "------------------SORTED-------------------------"

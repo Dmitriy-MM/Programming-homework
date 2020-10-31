@@ -46,7 +46,6 @@ int main (int argc, char * argv[])
 	printf ("---------------------------\nAfter:\n");
 	input_list->print (max_print);
 	printf ("Num of lesser than prev: %d\n", input_list->get_less_than_prev ());
-			printf ("Length of list %d\n", input_list->get_length ());
 	printf ("Elapsed %.2lfs\n", (double) time/CLOCKS_PER_SEC);
 	delete input_list;
 	return SUCCESS;

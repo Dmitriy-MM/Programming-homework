@@ -7,7 +7,7 @@
 class Tree
 {
 	private:
-		
+		Tree_node * root = nullptr;
 		
 		void add_node (Tree_node *, Tree_node *);
 		void print_branch (int max_level, int level, Tree_node * nd);
@@ -30,7 +30,7 @@ class Tree
 				delete root;
 			root = nullptr;
 		}
-		Tree_node * root = nullptr;
+
 		Tree () = default;
 		int task01 (Tree_node * pos = nullptr);
 		int task02 (Tree_node * pos = nullptr);

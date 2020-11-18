@@ -20,6 +20,22 @@ int Tree::count_descendants (Tree_node * pos)
 	return result;
 }
 
+//Возврщает количество детей данного узла.
+int Tree::count_children (Tree_node * pos)
+{
+	Tree_node * curr = nullptr;
+	int result = 0;
+	
+	if (pos->down == nullptr)
+		return 0;
+	
+	pos = pos->down;
+	for (curr = pos; curr != nullptr; curr = curr->level)
+		result++;
+	
+	return result;
+}
+
 //Возврщает количество уровней поддерева, образованного данным узлом.
 int Tree::get_max_deep (Tree_node * pos)
 {
@@ -32,14 +48,6 @@ int Tree::get_max_deep (Tree_node * pos)
 	pos = pos->down;
 	for (curr = pos; curr != nullptr; curr = curr->level)
 	{
-	//	if (curr->down != nullptr)
-	//	{
-	//		int deep_down = get_max_deep (curr->down);
-	//		deep += deep_down;
-	//		if (deep > max_deep)
-	//			max_deep = deep;
-	//		deep -= deep_down;
-	//	}
 		deep_down = get_max_deep (curr);
 		deep += deep_down;
 		if (deep > max_deep)
@@ -75,7 +83,7 @@ int Tree::count_elems_in_level (Tree_node * pos, int lvl_to_go)
 }
 
 //Возврщает количество элементов в узлах,
-//имеющих ровно k потомков.
+//имеющих ровно k потомков (детей).
 int Tree::task01 (int k, Tree_node * pos)
 {
 	Tree_node * curr = nullptr;
@@ -85,10 +93,9 @@ int Tree::task01 (int k, Tree_node * pos)
 		pos = root;
 	for (curr = pos; curr != nullptr; curr = curr->level)
 	{
-		count_of_descendants = count_descendants (curr);
+		count_of_descendants = count_children (curr);
 		if (count_of_descendants == k)
 			result++;
-		// printf ("count_of_descendants %d\n", count_of_descendants);
 		if (curr->down != nullptr)
 		{
 			result += task01 (k, curr->down);
@@ -98,26 +105,26 @@ int Tree::task01 (int k, Tree_node * pos)
 	return result;
 }
 #if 0
-int Tree::task01 (int k, Tree_node * pos)
-{
-	Tree_node * curr = nullptr;
-	int result = 0, count_of_descendants;
-	
-	if (pos == nullptr)
-		pos = root;
-	for (curr = pos; curr != nullptr; curr = curr->level)
+	int Tree::task01 (int k, Tree_node * pos)
 	{
-		count_of_descendants = count_descendants (curr);
-		if (count_of_descendants == k)
-			result++;
-		if (curr->down != nullptr)
+		Tree_node * curr = nullptr;
+		int result = 0, count_of_descendants;
+		
+		if (pos == nullptr)
+			pos = root;
+		for (curr = pos; curr != nullptr; curr = curr->level)
 		{
-			result += task01 (k, curr->down);
+			count_of_descendants = count_descendants (curr);
+			if (count_of_descendants == k)
+				result++;
+			if (curr->down != nullptr)
+			{
+				result += task01 (k, curr->down);
+			}
 		}
+		
+		return result;
 	}
-	
-	return result;
-}
 #endif
 
 //Возврщает количество элементов в поддеревьях,

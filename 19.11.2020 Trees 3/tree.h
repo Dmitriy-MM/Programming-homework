@@ -14,6 +14,7 @@ class Tree
 		void destroy_tree (Tree_node * nd = nullptr);
 		
 		int count_descendants (Tree_node * pos);
+		int count_children (Tree_node * pos);
 		int get_max_deep (Tree_node * pos);
 		int count_elems_in_level (Tree_node * pos, int lvl_to_go);
 	public:

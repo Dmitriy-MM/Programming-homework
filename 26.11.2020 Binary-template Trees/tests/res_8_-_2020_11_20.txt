@@ -1,0 +1,269 @@
+ДЗ 2020.11.26
+Актуальность: 2020.11.20
+
+!!! Вывод ТОЛЬКО 2й части !!!
+--------test_1e2.txt---------
+
+./a.out 0 test_1e2.txt 1
+./a.out : Task = 1 Result = 35 Elapsed = 0.00
+./a.out : Task = 2 Result = 14 Elapsed = 0.00
+./a.out : Task = 3 Result = 19 Elapsed = 0.00
+./a.out : Task = 4 Result = 89 Elapsed = 0.00
+./a.out : Task = 5 Result = 31 Elapsed = 0.00
+
+./a.out 0 test_1e2.txt 2
+./a.out : Task = 1 Result = 32 Elapsed = 0.00
+./a.out : Task = 2 Result = 28 Elapsed = 0.00
+./a.out : Task = 3 Result = 20 Elapsed = 0.00
+./a.out : Task = 4 Result = 86 Elapsed = 0.00
+./a.out : Task = 5 Result = 38 Elapsed = 0.00
+
+./a.out 0 test_1e2.txt 4
+./a.out : Task = 1 Result = 32 Elapsed = 0.00
+./a.out : Task = 2 Result = 36 Elapsed = 0.00
+./a.out : Task = 3 Result = 24 Elapsed = 0.00
+./a.out : Task = 4 Result = 96 Elapsed = 0.00
+./a.out : Task = 5 Result = 40 Elapsed = 0.00
+
+./a.out 0 test_1e2.txt 10
+./a.out : Task = 1 Result = 40 Elapsed = 0.00
+./a.out : Task = 2 Result = 60 Elapsed = 0.00
+./a.out : Task = 3 Result = 30 Elapsed = 0.00
+./a.out : Task = 4 Result = 90 Elapsed = 0.00
+./a.out : Task = 5 Result = 30 Elapsed = 0.00
+
+./a.out 0 test_1e2.txt 20
+./a.out : Task = 1 Result = 20 Elapsed = 0.00
+./a.out : Task = 2 Result = 100 Elapsed = 0.00
+./a.out : Task = 3 Result = 20 Elapsed = 0.00
+./a.out : Task = 4 Result = 80 Elapsed = 0.00
+./a.out : Task = 5 Result = 80 Elapsed = 0.00
+
+
+./a.out 0 test_1e2.txt 30
+./a.out : Task = 1 Result = 40 Elapsed = 0.00
+./a.out : Task = 2 Result = 90 Elapsed = 0.00
+./a.out : Task = 3 Result = 40 Elapsed = 0.00
+./a.out : Task = 4 Result = 70 Elapsed = 0.00
+./a.out : Task = 5 Result = 30 Elapsed = 0.00
+
+./a.out 0 test_1e2.txt 99
+./a.out : Task = 1 Result = 1 Elapsed = 0.00
+./a.out : Task = 2 Result = 100 Elapsed = 0.00
+./a.out : Task = 3 Result = 99 Elapsed = 0.00
+./a.out : Task = 4 Result = 1 Elapsed = 0.00
+./a.out : Task = 5 Result = 99 Elapsed = 0.00
+
+./a.out 0 test_1e2.txt 200
+./a.out : Task = 1 Result = 100 Elapsed = 0.00
+./a.out : Task = 2 Result = 100 Elapsed = 0.00
+./a.out : Task = 3 Result = 100 Elapsed = 0.00
+./a.out : Task = 4 Result = 0 Elapsed = 0.00
+./a.out : Task = 5 Result = 0 Elapsed = 0.00
+
+
+!!! Вывод ТОЛЬКО 2й части !!!
+--------test_1e4.txt---------
+
+./a.out 0 test_1e4.txt 1
+./a.out : Task = 1 Result = 3310 Elapsed = 0.00
+./a.out : Task = 2 Result = 30 Elapsed = 0.00
+./a.out : Task = 3 Result = 1028 Elapsed = 0.00
+./a.out : Task = 4 Result = 3359 Elapsed = 0.00
+./a.out : Task = 5 Result = 3381 Elapsed = 0.00
+
+./a.out 0 test_1e4.txt 2
+./a.out : Task = 1 Result = 3388 Elapsed = 0.00
+./a.out : Task = 2 Result = 60 Elapsed = 0.00
+./a.out : Task = 3 Result = 1154 Elapsed = 0.00
+./a.out : Task = 4 Result = 4792 Elapsed = 0.00
+./a.out : Task = 5 Result = 3226 Elapsed = 0.00
+
+./a.out 0 test_1e4.txt 5
+./a.out : Task = 1 Result = 3320 Elapsed = 0.00
+./a.out : Task = 2 Result = 140 Elapsed = 0.00
+./a.out : Task = 3 Result = 970 Elapsed = 0.00
+./a.out : Task = 4 Result = 3480 Elapsed = 0.00
+./a.out : Task = 5 Result = 3365 Elapsed = 0.00
+
+./a.out 0 test_1e4.txt 14
+./a.out : Task = 1 Result = 3196 Elapsed = 0.00
+./a.out : Task = 2 Result = 266 Elapsed = 0.00
+./a.out : Task = 3 Result = 1358 Elapsed = 0.00
+./a.out : Task = 4 Result = 1806 Elapsed = 0.00
+./a.out : Task = 5 Result = 3612 Elapsed = 0.00
+
+./a.out 0 test_1e4.txt 25
+./a.out : Task = 1 Result = 3200 Elapsed = 0.00
+./a.out : Task = 2 Result = 425 Elapsed = 0.00
+./a.out : Task = 3 Result = 1375 Elapsed = 0.00
+./a.out : Task = 4 Result = 3650 Elapsed = 0.00
+./a.out : Task = 5 Result = 3625 Elapsed = 0.00
+
+./a.out 0 test_1e4.txt 37
+./a.out : Task = 1 Result = 3340 Elapsed = 0.00
+./a.out : Task = 2 Result = 629 Elapsed = 0.00
+./a.out : Task = 3 Result = 1628 Elapsed = 0.00
+./a.out : Task = 4 Result = 2553 Elapsed = 0.00
+./a.out : Task = 5 Result = 3330 Elapsed = 0.00
+
+./a.out 0 test_1e4.txt 49
+./a.out : Task = 1 Result = 3238 Elapsed = 0.00
+./a.out : Task = 2 Result = 833 Elapsed = 0.00
+./a.out : Task = 3 Result = 1568 Elapsed = 0.00
+./a.out : Task = 4 Result = 4067 Elapsed = 0.00
+./a.out : Task = 5 Result = 3528 Elapsed = 0.00
+
+./a.out 0 test_1e4.txt 110
+./a.out : Task = 1 Result = 3070 Elapsed = 0.00
+./a.out : Task = 2 Result = 1650 Elapsed = 0.00
+./a.out : Task = 3 Result = 1430 Elapsed = 0.00
+./a.out : Task = 4 Result = 2860 Elapsed = 0.00
+./a.out : Task = 5 Result = 3960 Elapsed = 0.00
+
+./a.out 0 test_1e4.txt 185
+./a.out : Task = 1 Result = 3525 Elapsed = 0.00
+./a.out : Task = 2 Result = 1480 Elapsed = 0.00
+./a.out : Task = 3 Result = 2960 Elapsed = 0.00
+./a.out : Task = 4 Result = 1305 Elapsed = 0.00
+./a.out : Task = 5 Result = 2960 Elapsed = 0.00
+
+./a.out 0 test_1e4.txt 244
+./a.out : Task = 1 Result = 3168 Elapsed = 0.00
+./a.out : Task = 2 Result = 2436 Elapsed = 0.00
+./a.out : Task = 3 Result = 1952 Elapsed = 0.00
+./a.out : Task = 4 Result = 3416 Elapsed = 0.00
+./a.out : Task = 5 Result = 3904 Elapsed = 0.00
+
+./a.out 0 test_1e4.txt 333
+./a.out : Task = 1 Result = 3340 Elapsed = 0.00
+./a.out : Task = 2 Result = 3007 Elapsed = 0.00
+./a.out : Task = 3 Result = 2331 Elapsed = 0.00
+./a.out : Task = 4 Result = 3673 Elapsed = 0.00
+./a.out : Task = 5 Result = 3330 Elapsed = 0.00
+
+./a.out 0 test_1e4.txt 571
+./a.out : Task = 1 Result = 2577 Elapsed = 0.00
+./a.out : Task = 2 Result = 3997 Elapsed = 0.00
+./a.out : Task = 3 Result = 2284 Elapsed = 0.00
+./a.out : Task = 4 Result = 6003 Elapsed = 0.00
+./a.out : Task = 5 Result = 5139 Elapsed = 0.00
+
+./a.out 0 test_1e4.txt 1024
+./a.out : Task = 1 Result = 3856 Elapsed = 0.00
+./a.out : Task = 2 Result = 5120 Elapsed = 0.00
+./a.out : Task = 3 Result = 3856 Elapsed = 0.00
+./a.out : Task = 4 Result = 2048 Elapsed = 0.00
+./a.out : Task = 5 Result = 3072 Elapsed = 0.00
+
+./a.out 0 test_1e4.txt 4897
+./a.out : Task = 1 Result = 206 Elapsed = 0.00
+./a.out : Task = 2 Result = 10000 Elapsed = 0.00
+./a.out : Task = 3 Result = 4897 Elapsed = 0.00
+./a.out : Task = 4 Result = 5103 Elapsed = 0.00
+./a.out : Task = 5 Result = 9794 Elapsed = 0.00
+
+
+
+!!! Вывод ТОЛЬКО 2й части !!!
+--------------test_1e6.txt-------------------
+
+
+./a.out 0 test_1e6.txt 1
+./a.out : Task = 1 Result = 333117 Elapsed = 0.06
+./a.out : Task = 2 Result = 50 Elapsed = 0.07
+./a.out : Task = 3 Result = 74948 Elapsed = 0.15
+./a.out : Task = 4 Result = 717715 Elapsed = 0.10
+./a.out : Task = 5 Result = 333767 Elapsed = 0.06
+
+./a.out 0 test_1e6.txt 5
+./a.out : Task = 1 Result = 333250 Elapsed = 0.02
+./a.out : Task = 2 Result = 200 Elapsed = 0.03
+./a.out : Task = 3 Result = 92730 Elapsed = 0.05
+./a.out : Task = 4 Result = 718515 Elapsed = 0.03
+./a.out : Task = 5 Result = 333505 Elapsed = 0.02
+
+./a.out 0 test_1e6.txt 10
+./a.out : Task = 1 Result = 333650 Elapsed = 0.01
+./a.out : Task = 2 Result = 410 Elapsed = 0.02
+./a.out : Task = 3 Result = 75740 Elapsed = 0.04
+./a.out : Task = 4 Result = 718690 Elapsed = 0.02
+./a.out : Task = 5 Result = 332710 Elapsed = 0.01
+
+./a.out 0 test_1e6.txt 100
+./a.out : Task = 1 Result = 331700 Elapsed = 0.00
+./a.out : Task = 2 Result = 3000 Elapsed = 0.01
+./a.out : Task = 3 Result = 104000 Elapsed = 0.02
+./a.out : Task = 4 Result = 705700 Elapsed = 0.01
+./a.out : Task = 5 Result = 336700 Elapsed = 0.00
+
+./a.out 0 test_1e6.txt 1000
+./a.out : Task = 1 Result = 329000 Elapsed = 0.00
+./a.out : Task = 2 Result = 20000 Elapsed = 0.00
+./a.out : Task = 3 Result = 116000 Elapsed = 0.01
+./a.out : Task = 4 Result = 697000 Elapsed = 0.00
+./a.out : Task = 5 Result = 343000 Elapsed = 0.00
+
+./a.out 0 test_1e6.txt 10000
+./a.out : Task = 1 Result = 350000 Elapsed = 0.00
+./a.out : Task = 2 Result = 120000 Elapsed = 0.00
+./a.out : Task = 3 Result = 160000 Elapsed = 0.01
+./a.out : Task = 4 Result = 690000 Elapsed = 0.00
+./a.out : Task = 5 Result = 310000 Elapsed = 0.00
+
+./a.out 0 test_1e6.txt 100000
+./a.out : Task = 1 Result = 300000 Elapsed = 0.00
+./a.out : Task = 2 Result = 800000 Elapsed = 0.00
+./a.out : Task = 3 Result = 200000 Elapsed = 0.01
+./a.out : Task = 4 Result = 900000 Elapsed = 0.00
+./a.out : Task = 5 Result = 500000 Elapsed = 0.00
+
+./a.out 0 test_1e6.txt 66666
+./a.out : Task = 1 Result = 400006 Elapsed = 0.00
+./a.out : Task = 2 Result = 533328 Elapsed = 0.00
+./a.out : Task = 3 Result = 199998 Elapsed = 0.01
+./a.out : Task = 4 Result = 800002 Elapsed = 0.00
+./a.out : Task = 5 Result = 199998 Elapsed = 0.00
+
+./a.out 0 test_1e6.txt 123456
+./a.out : Task = 1 Result = 382720 Elapsed = 0.00
+./a.out : Task = 2 Result = 506176 Elapsed = 0.00
+./a.out : Task = 3 Result = 370368 Elapsed = 0.01
+./a.out : Task = 4 Result = 629632 Elapsed = 0.00
+./a.out : Task = 5 Result = 246912 Elapsed = 0.00
+
+./a.out 0 test_1e6.txt 74
+./a.out : Task = 1 Result = 334666 Elapsed = 0.00
+./a.out : Task = 2 Result = 2442 Elapsed = 0.01
+./a.out : Task = 3 Result = 107004 Elapsed = 0.02
+./a.out : Task = 4 Result = 714730 Elapsed = 0.01
+./a.out : Task = 5 Result = 330706 Elapsed = 0.00
+
+./a.out 0 test_1e6.txt 999
+./a.out : Task = 1 Result = 339661 Elapsed = 0.00
+./a.out : Task = 2 Result = 20979 Elapsed = 0.00
+./a.out : Task = 3 Result = 129870 Elapsed = 0.01
+./a.out : Task = 4 Result = 739261 Elapsed = 0.01
+./a.out : Task = 5 Result = 320679 Elapsed = 0.00
+
+./a.out 0 test_1e6.txt 5469
+./a.out : Task = 1 Result = 332782 Elapsed = 0.00
+./a.out : Task = 2 Result = 82035 Elapsed = 0.01
+./a.out : Task = 3 Result = 169539 Elapsed = 0.01
+./a.out : Task = 4 Result = 764833 Elapsed = 0.01
+./a.out : Task = 5 Result = 339078 Elapsed = 0.00
+
+./a.out 0 test_1e6.txt 9876
+./a.out : Task = 1 Result = 318556 Elapsed = 0.00
+./a.out : Task = 2 Result = 128388 Elapsed = 0.00
+./a.out : Task = 3 Result = 187644 Elapsed = 0.01
+./a.out : Task = 4 Result = 832108 Elapsed = 0.00
+./a.out : Task = 5 Result = 365412 Elapsed = 0.00
+
+./a.out 0 test_1e6.txt 80377
+./a.out : Task = 1 Result = 356984 Elapsed = 0.00
+./a.out : Task = 2 Result = 437361 Elapsed = 0.00
+./a.out : Task = 3 Result = 401885 Elapsed = 0.01
+./a.out : Task = 4 Result = 437361 Elapsed = 0.00
+./a.out : Task = 5 Result = 321508 Elapsed = 0.00
+

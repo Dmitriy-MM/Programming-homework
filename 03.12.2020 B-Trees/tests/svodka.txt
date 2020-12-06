@@ -1,0 +1,350 @@
+./a.out 2 3 1 test_1e2.txt
+./a.out : Task = 1 Result = 0 
+./a.out : Task = 2 Result = 75 
+./a.out : Task = 3 Result = 75 
+./a.out : Task = 4 Result = 75 
+./a.out : Task = 5 Result = 5 
+./a.out : Task = 6 Result = 0 
+./a.out 2 0 5 test_1e2.txt 
+./a.out : Task = 1 Result = 4 
+./a.out : Task = 2 Result = 151 
+./a.out : Task = 3 Result = 368 
+./a.out : Task = 4 Result = 169 
+./a.out : Task = 5 Result = 0 
+./a.out : Task = 6 Result = 0 
+./a.out 2 0 7 test_1e2.txt 
+./a.out : Task = 1 Result = 0 
+./a.out : Task = 2 Result = 169 
+./a.out : Task = 3 Result = 368 
+./a.out : Task = 4 Result = 169 
+./a.out : Task = 5 Result = 0 
+./a.out : Task = 6 Result = 0 
+./a.out 2 0 4 test_1e2.txt
+./a.out : Task = 1 Result = 12 
+./a.out : Task = 2 Result = 106 
+./a.out : Task = 3 Result = 368 
+./a.out : Task = 4 Result = 151 
+./a.out : Task = 5 Result = 0 
+./a.out : Task = 6 Result = 243 
+./a.out 4 2 1 test_1e2.txt
+./a.out : Task = 1 Result = 0 
+./a.out : Task = 2 Result = 87 
+./a.out : Task = 3 Result = 87 
+./a.out : Task = 4 Result = 87 
+./a.out : Task = 5 Result = 12 
+./a.out : Task = 6 Result = 0 
+./a.out 4 0 3 test_1e2.txt
+./a.out : Task = 1 Result = 0 
+./a.out : Task = 2 Result = 87 
+./a.out : Task = 3 Result = 286 
+./a.out : Task = 4 Result = 87 
+./a.out : Task = 5 Result = 0 
+./a.out : Task = 6 Result = 193 
+./a.out 4 0 5 test_1e2.txt
+./a.out : Task = 1 Result = 4 
+./a.out : Task = 2 Result = 87 
+./a.out : Task = 3 Result = 286 
+./a.out : Task = 4 Result = 124 
+./a.out : Task = 5 Result = 0 
+./a.out : Task = 6 Result = 0 
+./a.out 4 0 2 test_1e2.txt
+./a.out : Task = 1 Result = 1 
+./a.out : Task = 2 Result = 87 
+./a.out : Task = 3 Result = 186 
+./a.out : Task = 4 Result = 87 
+./a.out : Task = 5 Result = 87 
+./a.out : Task = 6 Result = 0 
+./a.out 6 2 1 test_1e2.txt
+./a.out : Task = 1 Result = 0 
+./a.out : Task = 2 Result = 89 
+./a.out : Task = 3 Result = 89 
+./a.out : Task = 4 Result = 89 
+./a.out : Task = 5 Result = 89 
+./a.out : Task = 6 Result = 0 
+./a.out 6 0 0 test_1e2.txt
+./a.out : Task = 1 Result = 89 
+./a.out : Task = 2 Result = 0 
+./a.out : Task = 3 Result = 0 
+./a.out : Task = 4 Result = 0 
+./a.out : Task = 5 Result = 11 
+./a.out : Task = 6 Result = 0 
+./a.out 6 0 5 test_1e2.txt
+./a.out : Task = 1 Result = 0 
+./a.out : Task = 2 Result = 89 
+./a.out : Task = 3 Result = 189 
+./a.out : Task = 4 Result = 89 
+./a.out : Task = 5 Result = 0 
+./a.out : Task = 6 Result = 0 
+./a.out 6 0 12 test_1e2.txt
+./a.out : Task = 1 Result = 11 
+./a.out : Task = 2 Result = 89 
+./a.out : Task = 3 Result = 189 
+./a.out : Task = 4 Result = 189 
+./a.out : Task = 5 Result = 0 
+./a.out : Task = 6 Result = 0 
+./a.out 100 0 2 test_1e2.txt
+./a.out : Task = 1 Result = 0 
+./a.out : Task = 2 Result = 100 
+./a.out : Task = 3 Result = 100 
+./a.out : Task = 4 Result = 100 
+./a.out : Task = 5 Result = 0 
+./a.out : Task = 6 Result = 0 
+./a.out 2 3 2 test_1e4.txt
+./a.out : Task = 1 Result = 0 
+./a.out : Task = 2 Result = 7291 
+./a.out : Task = 3 Result = 16564 
+./a.out : Task = 4 Result = 7291 
+./a.out : Task = 5 Result = 38 
+./a.out : Task = 6 Result = 0 
+./a.out 2 0 10 test_1e4.txt
+./a.out : Task = 1 Result = 0 
+./a.out : Task = 2 Result = 16564 
+./a.out : Task = 3 Result = 66305 
+./a.out : Task = 4 Result = 17543 
+./a.out : Task = 5 Result = 0 
+./a.out : Task = 6 Result = 0 
+./a.out 2 0 5 test_1e4.txt
+./a.out : Task = 1 Result = 808 
+./a.out : Task = 2 Result = 14126 
+./a.out : Task = 3 Result = 46308 
+./a.out : Task = 4 Result = 16564 
+./a.out : Task = 5 Result = 1982 
+./a.out : Task = 6 Result = 0 
+./a.out 2 0 7 test_1e4.txt
+./a.out : Task = 1 Result = 0 
+./a.out : Task = 2 Result = 16564 
+./a.out : Task = 3 Result = 66305 
+./a.out : Task = 4 Result = 16564 
+./a.out : Task = 5 Result = 0 
+./a.out : Task = 6 Result = 53792 
+./a.out 2 0 0 test_1e4.txt
+./a.out : Task = 1 Result = 7291 
+./a.out : Task = 2 Result = 0 
+./a.out : Task = 3 Result = 0 
+./a.out : Task = 4 Result = 0 
+./a.out : Task = 5 Result = 3 
+./a.out : Task = 6 Result = 0 
+./a.out 5 2 0 test_1e4.txt
+./a.out : Task = 1 Result = 8723 
+./a.out : Task = 2 Result = 0 
+./a.out : Task = 3 Result = 0 
+./a.out : Task = 4 Result = 0 
+./a.out : Task = 5 Result = 1 
+./a.out : Task = 6 Result = 0 
+./a.out 5 0 1 test_1e4.txt
+./a.out : Task = 1 Result = 0 
+./a.out : Task = 2 Result = 8723 
+./a.out : Task = 3 Result = 8723 
+./a.out : Task = 4 Result = 8723 
+./a.out : Task = 5 Result = 18 
+./a.out : Task = 6 Result = 0 
+./a.out 5 0 5 test_1e4.txt
+./a.out : Task = 1 Result = 0 
+./a.out : Task = 2 Result = 8723 
+./a.out : Task = 3 Result = 48542 
+./a.out : Task = 4 Result = 8723 
+./a.out : Task = 5 Result = 0 
+./a.out : Task = 6 Result = 40384 
+./a.out 5 0 7 test_1e4.txt
+./a.out : Task = 1 Result = 234 
+./a.out : Task = 2 Result = 10898 
+./a.out : Task = 3 Result = 48542 
+./a.out : Task = 4 Result = 12815 
+./a.out : Task = 5 Result = 0 
+./a.out : Task = 6 Result = 0 
+./a.out 25 0 10 test_1e4.txt
+./a.out : Task = 1 Result = 0 
+./a.out : Task = 2 Result = 9719 
+./a.out : Task = 3 Result = 29712 
+./a.out : Task = 4 Result = 9719 
+./a.out : Task = 5 Result = 0 
+./a.out : Task = 6 Result = 0 
+./a.out 25 0 2 test_1e4.txt
+./a.out : Task = 1 Result = 0 
+./a.out : Task = 2 Result = 9719 
+./a.out : Task = 3 Result = 19712 
+./a.out : Task = 4 Result = 9719 
+./a.out : Task = 5 Result = 9719 
+./a.out : Task = 6 Result = 0 
+./a.out 25 1 3 test_1e4.txt
+./a.out : Task = 1 Result = 0 
+./a.out : Task = 2 Result = 9719 
+./a.out : Task = 3 Result = 29712 
+./a.out : Task = 4 Result = 9719 
+./a.out : Task = 5 Result = 0 
+./a.out : Task = 6 Result = 21471 
+./a.out 2 4 1 test_1e6.txt
+./a.out : Task = 1 Result = 0 
+./a.out : Task = 2 Result = 729731 
+./a.out : Task = 3 Result = 729731 
+./a.out : Task = 4 Result = 729731 
+./a.out : Task = 5 Result = 6 
+./a.out : Task = 6 Result = 0 
+./a.out 2 0 5 test_1e6.txt
+./a.out : Task = 1 Result = 84248 
+./a.out : Task = 2 Result = 1388846 
+./a.out : Task = 3 Result = 4631420 
+./a.out : Task = 4 Result = 1657510 
+./a.out : Task = 5 Result = 1036 
+./a.out : Task = 6 Result = 0 
+./a.out 2 0 10 test_1e6.txt
+./a.out : Task = 1 Result = 0 
+./a.out : Task = 2 Result = 1657510 
+./a.out : Task = 3 Result = 9630874 
+./a.out : Task = 4 Result = 1760167 
+./a.out : Task = 5 Result = 729731 
+./a.out : Task = 6 Result = 0 
+./a.out 2 0 100 test_1e6.txt
+./a.out : Task = 1 Result = 0 
+./a.out : Task = 2 Result = 3569325 
+./a.out : Task = 3 Result = 10630874 
+./a.out : Task = 4 Result = 3633583 
+./a.out : Task = 5 Result = 0 
+./a.out : Task = 6 Result = 0 
+./a.out 2 0 1000 test_1e6.txt
+./a.out : Task = 1 Result = 0 
+./a.out : Task = 2 Result = 5205584 
+./a.out : Task = 3 Result = 10630874 
+./a.out : Task = 4 Result = 5586510 
+./a.out : Task = 5 Result = 0 
+./a.out : Task = 6 Result = 0 
+./a.out 2 0 10000 test_1e6.txt
+./a.out : Task = 1 Result = 0 
+./a.out : Task = 2 Result = 6804797 
+./a.out : Task = 3 Result = 10630874 
+./a.out : Task = 4 Result = 7288245 
+./a.out : Task = 5 Result = 0 
+./a.out : Task = 6 Result = 0 
+./a.out 2 0 100000 test_1e6.txt
+./a.out : Task = 1 Result = 0 
+./a.out : Task = 2 Result = 8630875 
+./a.out : Task = 3 Result = 10630874 
+./a.out : Task = 4 Result = 8630875 
+./a.out : Task = 5 Result = 0 
+./a.out : Task = 6 Result = 0 
+./a.out 2 0 1000000 test_1e6.txt
+./a.out : Task = 1 Result = 0 
+./a.out : Task = 2 Result = 10630874 
+./a.out : Task = 3 Result = 10630874 
+./a.out : Task = 4 Result = 10630874 
+./a.out : Task = 5 Result = 0 
+./a.out : Task = 6 Result = 0 
+./a.out 4 2 1 test_1e6.txt
+./a.out : Task = 1 Result = 0 
+./a.out : Task = 2 Result = 845048 
+./a.out : Task = 3 Result = 845048 
+./a.out : Task = 4 Result = 845048 
+./a.out : Task = 5 Result = 12 
+./a.out : Task = 6 Result = 0 
+./a.out 4 0 25 test_1e6.txt
+./a.out : Task = 1 Result = 0 
+./a.out : Task = 2 Result = 1821268 
+./a.out : Task = 3 Result = 7816868 
+./a.out : Task = 4 Result = 1822396 
+./a.out : Task = 5 Result = 0 
+./a.out : Task = 6 Result = 0 
+./a.out 4 0 50 test_1e6.txt
+./a.out : Task = 1 Result = 0 
+./a.out : Task = 2 Result = 2322511 
+./a.out : Task = 3 Result = 7816868 
+./a.out : Task = 4 Result = 2549058 
+./a.out : Task = 5 Result = 0 
+./a.out : Task = 6 Result = 0 
+./a.out 4 0 9 test_1e6.txt
+./a.out : Task = 1 Result = 26528 
+./a.out : Task = 2 Result = 1663391 
+./a.out : Task = 3 Result = 7816868 
+./a.out : Task = 4 Result = 1821268 
+./a.out : Task = 5 Result = 0 
+./a.out : Task = 6 Result = 0 
+./a.out 4 0 7 test_1e6.txt
+./a.out : Task = 1 Result = 29868 
+./a.out : Task = 2 Result = 1296159 
+./a.out : Task = 3 Result = 6816868 
+./a.out : Task = 4 Result = 1485523 
+./a.out : Task = 5 Result = 845048 
+./a.out : Task = 6 Result = 0 
+./a.out 4 0 8 test_1e6.txt
+./a.out : Task = 1 Result = 28910 
+./a.out : Task = 2 Result = 1485523 
+./a.out : Task = 3 Result = 7816868 
+./a.out : Task = 4 Result = 1663391 
+./a.out : Task = 5 Result = 0 
+./a.out : Task = 6 Result = 6365524 
+./a.out 20 1 1 test_1e6.txt
+./a.out : Task = 1 Result = 0 
+./a.out : Task = 2 Result = 965128 
+./a.out : Task = 3 Result = 965128 
+./a.out : Task = 4 Result = 965128 
+./a.out : Task = 5 Result = 1081 
+./a.out : Task = 6 Result = 0 
+./a.out 20 0 46 test_1e6.txt
+./a.out : Task = 1 Result = 0 
+./a.out : Task = 2 Result = 1964014 
+./a.out : Task = 3 Result = 3963981 
+./a.out : Task = 4 Result = 1964014 
+./a.out : Task = 5 Result = 0 
+./a.out : Task = 6 Result = 0 
+./a.out 20 0 17 test_1e6.txt
+./a.out : Task = 1 Result = 0 
+./a.out : Task = 2 Result = 965128 
+./a.out : Task = 3 Result = 3963981 
+./a.out : Task = 4 Result = 965128 
+./a.out : Task = 5 Result = 0 
+./a.out : Task = 6 Result = 0 
+./a.out 20 0 4 test_1e6.txt
+./a.out : Task = 1 Result = 0 
+./a.out : Task = 2 Result = 965128 
+./a.out : Task = 3 Result = 3963981 
+./a.out : Task = 4 Result = 965128 
+./a.out : Task = 5 Result = 0 
+./a.out : Task = 6 Result = 4353748 
+./a.out 100 1 1 test_1e6.txt
+./a.out : Task = 1 Result = 0 
+./a.out : Task = 2 Result = 992652 
+./a.out : Task = 3 Result = 992652 
+./a.out : Task = 4 Result = 992652 
+./a.out : Task = 5 Result = 7285 
+./a.out : Task = 6 Result = 0 
+./a.out 100 0 5 test_1e6.txt
+./a.out : Task = 1 Result = 0 
+./a.out : Task = 2 Result = 992652 
+./a.out : Task = 3 Result = 2992589 
+./a.out : Task = 4 Result = 992652 
+./a.out : Task = 5 Result = 0 
+./a.out : Task = 6 Result = 0 
+./a.out 100 0 0 test_1e6.txt
+./a.out : Task = 1 Result = 992652 
+./a.out : Task = 2 Result = 0 
+./a.out : Task = 3 Result = 0 
+./a.out : Task = 4 Result = 0 
+./a.out : Task = 5 Result = 63 
+./a.out : Task = 6 Result = 0 
+./a.out 100 0 3 test_1e6.txt
+./a.out : Task = 1 Result = 0 
+./a.out : Task = 2 Result = 992652 
+./a.out : Task = 3 Result = 2992589 
+./a.out : Task = 4 Result = 992652 
+./a.out : Task = 5 Result = 0 
+./a.out : Task = 6 Result = 2297697 
+./a.out 1000 0 1 test_1e6.txt
+./a.out : Task = 1 Result = 0 
+./a.out : Task = 2 Result = 999321 
+./a.out : Task = 3 Result = 999321 
+./a.out : Task = 4 Result = 999321 
+./a.out : Task = 5 Result = 999321 
+./a.out : Task = 6 Result = 0 
+./a.out 1000 0 0 test_1e6.txt
+./a.out : Task = 1 Result = 999321 
+./a.out : Task = 2 Result = 0 
+./a.out : Task = 3 Result = 0 
+./a.out : Task = 4 Result = 0 
+./a.out : Task = 5 Result = 679 
+./a.out : Task = 6 Result = 0 
+./a.out 1000 0 2 test_1e6.txt
+./a.out : Task = 1 Result = 0 
+./a.out : Task = 2 Result = 999321 
+./a.out : Task = 3 Result = 1999321 
+./a.out : Task = 4 Result = 999321 
+./a.out : Task = 5 Result = 0 
+./a.out : Task = 6 Result = 1461041 

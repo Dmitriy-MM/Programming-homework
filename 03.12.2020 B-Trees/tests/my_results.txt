@@ -1,0 +1,634 @@
+[Dima@localhost 03.12.2020 B-Trees]$ make super_test
+./a.out 2 3 1 test_1e2.txt
+tree has been reading 0.00s
+0) aSm5wvDN0Rbsski6xgwQssXf6edwSrBhR8Xhbh3qn8BfK3kfm3kxKJ1RGX3ivyZVLLPshyAOAoGCkj1tgMggR1QVrHKyNrMiNJM9Oen6GkLMqoFXhJqd2Vfs 1224621742
+   0) 8YDXOYJ8O1t7vXkRMr6HWQB4xzNFns00iV7v1cZnILh5ZiX6JfrjsAWe4hEnR5k0upEAYOxddHgrjpqBHngNxDneLwQIqxFA3LzEmJACgiYO69jJajYwg0Xb 498010288
+   1) FjG1bYFEynV54dE1lfXj3F1i0VBEeshVwKmLybKna18clbl21PKWbifXRkl8fG5Y2mh2SXJ1vBMM0f7hBSI2ETipO8fUVf8J8AUKxXSOAx8rRCNx8Z7lhgAu 787762263
+   2) QquaghLBDImW3lGwBzyUuwMONiVopeZH0Ji6d03CnLmS2kkvOounh2aXz2kkFbWfdTzMectf60hZO5VO7ysdPjGRpezWYcBG8izDrGiF5zHjj4P0GqJG0T5A 109352279
+   |   0) 1jrmaiweXE7TtL7rFiMCtEqOpcLSv9gP8ty1cizdn1VJrgqBNQkqHcMeSnnajo70pSKb7be0tJqiS6jZqqFN1QfrspUjxFxKdJN5mvSV8t5tLCTpgHuIn3BO 751394395
+   |   1) 3EpZZf21MfnVtzpl6uwtXXdxofgAXM5IAZVXyYJDqQxX3aPK1bRMXREiIpIXeNkTpgd4icV4wLJwZn3asov2JPqbRIakMgSEiyiI7fKVnrP2cZJtgjhrZBXM 1551913866
+   |   2) 4vmCUBxFapuDjFKIErBZh7eVboslMWh5VP7tumhOq0ORMqWWD6rIoNKwdavyamynEfBhwAkI5tQZmm7q4qPNf99R2ScVZS8OyhflnzOCCPFHv5ywVt0nBfUW 1620816638
+...
+   |   ...
+   |   0) B9SEugppitTYzUUO7zjFrYgooJ6xydv0m5Pph5WG1kMt3u3bSZRlBMhhgDcxhr0IYeCcnVXyofS2CwdtB5Jy6xsggdVRvcJlX7MBiAwRbSMmeT4EG67TEir5 1128529862
+   |   1) DIeM3lh57HtNzfDrbGyse75CV94NzHts5MqGaAMmNGxMiCb6YB8PnxldEPzHDq2dtAHqU1s1q1Gu7PcfIqUILgAgBtgRQuHGF8Zn8g68XoSWx4ToHy2uXFKj 1770668184
+   |   2) F345u6fBv1E73JFoTHfvtPblUEJYWzurt5DxfeDeJ1XgLKeKn1w0KeMQm6e2HRoYKxRPmw1uMe7DSth4DrW8GJSebYBbnMpD3c59CRo0FT6uso0fZ8hFxXE6 1993334328
+   |   0) KR3qg5FFPSVzQqJfF9t2eBUNvY81aZnxhoT3hmBFPMnhO9DwcWFitaIdZHW1Uk4B0fV2FUxJZietmNNzjG81iB2yYRO5mLMdrtl5aM6atdDQjjgulMT1oaIX 1628570862
+   |   1) KzMVXxKK46ZjtBdUxOgM4sD4mIuDD6TRQXk0anaNSox5Sc83fLDqxM0405fWSdAJehOvlVqs7HVJAe4Ferj7fWoYKgbla4ZGJB0HP4pKVmk0ezIWtZ9GKMDK 1077825571
+   0) ifeTefsMrM2GjVUCYpLj0d9mn54GpDqBhfMyttXxWDLF3TYOKVPovvU7kHSLpFZ8oldSlGyupPZ0X3AAewp4JYazmD9wT10YPB4Xsorx2YvwyloMSpQ5bYEh 559676780
+   1) pTznSV4bj49txYutl7gQPfApa5Ll8401BMHNmcAkWHMrw1If0hJ6fCeIhvGeiNArmTvNVcCzwsZBr7pBgeDNQ2VtYfjmEn47nBcKNXwBDWtNztsGGde83xGM 1146342374
+   |   0) dsknGtBt8JGk22KAZVU6MeEukJNKCkAo4YDBwuvk8vSR26AcdzneD3YtLnYYKLBbx0wtAyxgXhVbeIuLDVVvRHvd5xpxsMJy3oV7KgMGQDRdWAP06caGZuIa 1182256916
+   |   1) f3uYMqaCEuyKnV8NXR6yUsDTAT0TGESaSUmZyYMkLMp63YfHENANss3n0N1nolq1XM6DFthCj7PDjn8jLOSIQlVCFzZbDEOZ3d8Z93Y0nnmj7IPYRboFj54n 498358159
+   |   0) l5fqsz78OiMWuBQPqJay2NozeORAinp0eAe18yFxuoqFm5NGm4jzpCjWidRE7o6qE4DUVCQ9Z2D5U8LrmLaKiL97MgjNLUaNEGcN0RmNdYnV41yxF1bxhaxq 1788475545
+   |   1) mfjyhMntDHQHUQyaV7nScIMmNab5QbDlx8GcMPpaABPPN3YEybAKrsxHSgNol4EGVAqOdTXDVOM00YeNV8olUUCDY0fyq8olsYBi3EqfqDTqnlPPxBOixV6l 359309517
+   |   0) uMFArai5rEZZJnBdRLAI5XKVwbeQ9HNsnMZINvr4YPCqt3IUhmajiEJqgS7B375f3H2mbrmSXYd5Z1NH7Qg86EdsErsoUROBceJ5YjD2qfbprRMwzjM6rV5G 1496072810
+   |   1) w1u1p82kXNVdSkmgEp8058RmqycFtictOkE8AdyyxA1AkhD3Q0TSKMZvGi0E3CDxOlb09B5ai3BfP8mB5WcmFavPQ6ZkmzjuIYrQm95v30qJVufNDsUi1qRd 1501135539
+   |   2) yCyxgkYUfse4CXRSl3LBVDYK4p8wnTyVSRZ6NWLl18Xss2zgN4WOiDOlBo74un4KuPylfQ0ct30dfGxTSyrA9qjzVqL9YNWdOSo5qxgfmuIqMlxRsyeOBRxm 1643121649
+./a.out : Task = 1 Result = 0 Elapsed = 0.00
+./a.out : Task = 2 Result = 75 Elapsed = 0.00
+./a.out : Task = 3 Result = 75 Elapsed = 0.00
+./a.out : Task = 4 Result = 75 Elapsed = 0.00
+./a.out : Task = 5 Result = 5 Elapsed = 0.00
+./a.out : Task = 6 Result = 0 Elapsed = 0.00
+./a.out 2 0 5 test_1e2.txt 
+tree has been reading 0.00s
+./a.out : Task = 1 Result = 4 Elapsed = 0.00
+./a.out : Task = 2 Result = 151 Elapsed = 0.00
+./a.out : Task = 3 Result = 368 Elapsed = 0.00
+./a.out : Task = 4 Result = 169 Elapsed = 0.00
+./a.out : Task = 5 Result = 0 Elapsed = 0.00
+./a.out : Task = 6 Result = 0 Elapsed = 0.00
+./a.out 2 0 7 test_1e2.txt 
+tree has been reading 0.00s
+./a.out : Task = 1 Result = 0 Elapsed = 0.00
+./a.out : Task = 2 Result = 169 Elapsed = 0.00
+./a.out : Task = 3 Result = 368 Elapsed = 0.00
+./a.out : Task = 4 Result = 169 Elapsed = 0.00
+./a.out : Task = 5 Result = 0 Elapsed = 0.00
+./a.out : Task = 6 Result = 0 Elapsed = 0.00
+./a.out 2 0 4 test_1e2.txt
+tree has been reading 0.00s
+./a.out : Task = 1 Result = 12 Elapsed = 0.00
+./a.out : Task = 2 Result = 106 Elapsed = 0.00
+./a.out : Task = 3 Result = 368 Elapsed = 0.00
+./a.out : Task = 4 Result = 151 Elapsed = 0.00
+./a.out : Task = 5 Result = 0 Elapsed = 0.00
+./a.out : Task = 6 Result = 243 Elapsed = 0.00
+echo "4---------------------------4"
+4---------------------------4
+./a.out 4 2 1 test_1e2.txt
+tree has been reading 0.00s
+0) aMdamdfcrH6pJvJMbYBO9BpOOzS7yjISrNV6PohBx2duxVzNaB6lCclHTrFHhmZzOmCHjwj69hc6SiWzWGeam13zWc4retHrZmwDuDOh4nB91nDoo2buT3jx 1010639420
+   0) 1qvjyyBCJg76QrInj7AvnnDl9u6Yjd9IG8HRBJ0mu5gqgdTnFmkAE4NHdYGQzO9hHJHpnt8oJr6aXPOEDV6RinLRWEdrpxAcadBe10yOEsc9OqdDbcnbFPX3 389423734
+   1) 52Jf2YHGi5Ss66BTBu4S35rmqznyMXlXUS2fqE94jZrREBu1UkUfG38u9x4B4VqJoB4cJ1IZMUzrDakhj8J0y8yxczi8tsSbhCqu2dn4JZnu3aJtIk43RDBk 1678602441
+...
+   ...
+   0) dsknGtBt8JGk22KAZVU6MeEukJNKCkAo4YDBwuvk8vSR26AcdzneD3YtLnYYKLBbx0wtAyxgXhVbeIuLDVVvRHvd5xpxsMJy3oV7KgMGQDRdWAP06caGZuIa 1182256916
+   1) ifeTefsMrM2GjVUCYpLj0d9mn54GpDqBhfMyttXxWDLF3TYOKVPovvU7kHSLpFZ8oldSlGyupPZ0X3AAewp4JYazmD9wT10YPB4Xsorx2YvwyloMSpQ5bYEh 559676780
+...
+   ...
+./a.out : Task = 1 Result = 0 Elapsed = 0.00
+./a.out : Task = 2 Result = 87 Elapsed = 0.00
+./a.out : Task = 3 Result = 87 Elapsed = 0.00
+./a.out : Task = 4 Result = 87 Elapsed = 0.00
+./a.out : Task = 5 Result = 12 Elapsed = 0.00
+./a.out : Task = 6 Result = 0 Elapsed = 0.00
+./a.out 4 0 3 test_1e2.txt
+tree has been reading 0.00s
+./a.out : Task = 1 Result = 0 Elapsed = 0.00
+./a.out : Task = 2 Result = 87 Elapsed = 0.00
+./a.out : Task = 3 Result = 286 Elapsed = 0.00
+./a.out : Task = 4 Result = 87 Elapsed = 0.00
+./a.out : Task = 5 Result = 0 Elapsed = 0.00
+./a.out : Task = 6 Result = 193 Elapsed = 0.00
+./a.out 4 0 5 test_1e2.txt
+tree has been reading 0.00s
+./a.out : Task = 1 Result = 4 Elapsed = 0.00
+./a.out : Task = 2 Result = 87 Elapsed = 0.00
+./a.out : Task = 3 Result = 286 Elapsed = 0.00
+./a.out : Task = 4 Result = 124 Elapsed = 0.00
+./a.out : Task = 5 Result = 0 Elapsed = 0.00
+./a.out : Task = 6 Result = 0 Elapsed = 0.00
+./a.out 4 0 2 test_1e2.txt
+tree has been reading 0.00s
+./a.out : Task = 1 Result = 1 Elapsed = 0.00
+./a.out : Task = 2 Result = 87 Elapsed = 0.00
+./a.out : Task = 3 Result = 186 Elapsed = 0.00
+./a.out : Task = 4 Result = 87 Elapsed = 0.00
+./a.out : Task = 5 Result = 87 Elapsed = 0.00
+./a.out : Task = 6 Result = 0 Elapsed = 0.00
+echo "6---------------------------6"
+6---------------------------6
+./a.out 6 2 1 test_1e2.txt
+tree has been reading 0.00s
+0) 1qvjyyBCJg76QrInj7AvnnDl9u6Yjd9IG8HRBJ0mu5gqgdTnFmkAE4NHdYGQzO9hHJHpnt8oJr6aXPOEDV6RinLRWEdrpxAcadBe10yOEsc9OqdDbcnbFPX3 389423734
+1) 52Jf2YHGi5Ss66BTBu4S35rmqznyMXlXUS2fqE94jZrREBu1UkUfG38u9x4B4VqJoB4cJ1IZMUzrDakhj8J0y8yxczi8tsSbhCqu2dn4JZnu3aJtIk43RDBk 1678602441
+...
+   0) 0QzVMg8ampEVJljRedZjuOTT6ODyFgFDId6iHmWFJTagPnY1VlQNEzRlLkI2sN3rru8lTaLGduO7CgLANa4i4cy0PDJTZC9W8iQRRnHXR6sT0wjW2FN8sdb8 2020981302
+   1) 0W48tzqQOqauCwTcnKOd3JyDkTvDexARCUrgkY0u3CXOwnjW2nJ3KUpEgnVUxI8cFHPI2qt7BEQhQd0c8M6eV0wMJfFGPlOIGm0f91fqjxRsujfUfLtBiWSr 2135749814
+...
+   ...
+   0) 2Ed5Dwp0n5Y12AxZr6K6cDhZdKxtJKuCjmT9f3iu1TrRRPa2J3Q7XCPaAWv4ypGFxAf5y0mDeVduBof487qutq3ZgAyPn4oUAnGfTxceqeEQOgrb4aL2OKMF 1796558586
+   1) 2nB00GUTpr3iNIEQzTEmJBu38MoTMmuYQee9rOFf6ZSMocbpLsM1gGbxMponc0S1OA6jTbPZwDiskKumPWG0QstEfLU4XulJVyuipmqgvWXN7l0NmLIgVtgQ 1308433911
+...
+   ...
+...
+./a.out : Task = 1 Result = 0 Elapsed = 0.00
+./a.out : Task = 2 Result = 89 Elapsed = 0.00
+./a.out : Task = 3 Result = 89 Elapsed = 0.00
+./a.out : Task = 4 Result = 89 Elapsed = 0.00
+./a.out : Task = 5 Result = 89 Elapsed = 0.00
+./a.out : Task = 6 Result = 0 Elapsed = 0.00
+./a.out 6 0 0 test_1e2.txt
+tree has been reading 0.00s
+./a.out : Task = 1 Result = 89 Elapsed = 0.00
+./a.out : Task = 2 Result = 0 Elapsed = 0.00
+./a.out : Task = 3 Result = 0 Elapsed = 0.00
+./a.out : Task = 4 Result = 0 Elapsed = 0.00
+./a.out : Task = 5 Result = 11 Elapsed = 0.00
+./a.out : Task = 6 Result = 0 Elapsed = 0.00
+./a.out 6 0 5 test_1e2.txt
+tree has been reading 0.00s
+./a.out : Task = 1 Result = 0 Elapsed = 0.00
+./a.out : Task = 2 Result = 89 Elapsed = 0.00
+./a.out : Task = 3 Result = 189 Elapsed = 0.00
+./a.out : Task = 4 Result = 89 Elapsed = 0.00
+./a.out : Task = 5 Result = 0 Elapsed = 0.00
+./a.out : Task = 6 Result = 0 Elapsed = 0.00
+./a.out 6 0 12 test_1e2.txt
+tree has been reading 0.00s
+./a.out : Task = 1 Result = 11 Elapsed = 0.00
+./a.out : Task = 2 Result = 89 Elapsed = 0.00
+./a.out : Task = 3 Result = 189 Elapsed = 0.00
+./a.out : Task = 4 Result = 189 Elapsed = 0.00
+./a.out : Task = 5 Result = 0 Elapsed = 0.00
+./a.out : Task = 6 Result = 0 Elapsed = 0.00
+./a.out 100 0 2 test_1e2.txt
+tree has been reading 0.00s
+./a.out : Task = 1 Result = 0 Elapsed = 0.00
+./a.out : Task = 2 Result = 100 Elapsed = 0.00
+./a.out : Task = 3 Result = 100 Elapsed = 0.00
+./a.out : Task = 4 Result = 100 Elapsed = 0.00
+./a.out : Task = 5 Result = 0 Elapsed = 0.00
+./a.out : Task = 6 Result = 0 Elapsed = 0.00
+echo "==============test_1e4.txt=============="
+==============test_1e4.txt==============
+./a.out 2 3 2 test_1e4.txt
+tree has been reading 0.03s
+0) Ce1cde6GHKTdj293Beg67eynbCtMul8DFoHuuiI36BKrgTHoI00tV0ap1GpY4UQgGuxZIkpBPpIpkA0oAgnELqUWiYxnIYFBgXroRtitDjjIwEXWGZNtKJy2 692863455
+1) RSniGMkrq86ahRA3VluZWInoXPHw4Z3jmSV1bdULPr25omQ2g3bhBH8OsJDrVqgI7xYu9xrbU0U2F245D24kGiz9zuz3gQzuDZnQ83FWrmNwZ59KLBwRjPfM 11284472
+2) lgbdmGgPycCM8inz0Je0nRiSX0aeLQpp8495GrdNLOsS9Pz65DCu6m7vNSSaOX8OSoXFYr6zvz0yyZWlW2mxscOvJV18s7Tn6LxxTKWbrod3JSpchwqZ76Ab 1301497603
+   0) 3l8v6x8VG0lynJi7XMy3AVl1LqfHt08OCHS1FNwYSnOq9KF8LvqVui0CyyVXyN60rNgshYkF7AbIlqCgA11B7SQxM2SYKh1IsYKE05owHrdmnlQlwuthVjLR 2139752761
+   1) 7I75BhT71PElJUe0pUuIZL41xryFnfOwwqcNpAOePVkjCZ6oRdnZwKd3Hj1CZvGSqa3uWs0GT1GQ1SDShoj93GV9nfLAv37tqhHczJ5OKWDNa4tFzHc8UsJw 274407921
+   |   0) 1Org14hmWkUudBGLkVrqCeXmiA6HrrpK16oQuQnBzWbkf84uBhVp7iLbWJ4OASkozyD7HO4SH6DkZ0QUfd4zHWDhsp2EmtckgKiEDXyWcZ8r2WV3k3CrXVvk 1241596798
+   |   1) 2Uy23y2ZO5vidwsUSRw1VTgC2aczFFiNnsLKktKUgdZD8kNNlQY854tVJP4cwX8CXT8GSx3XK0ssTmifiZmELgIRXhw6FyaK6OB5FtipMqEv1OP5Yxx00RDe 1846923291
+   |   0) 4muUj2mbAsHIbdwrAxhEjrkb1bWLnCCtuZwHNqIaNlkBCgyl6DesWJndPxX6tH16mQlOV18qaYTYZZ7RfxbgZgtIEawdi1GWFQIlZPcvAIwh2LD1wN25lmGl 436725301
+   |   1) 641xXK4gpiJZMoUEV61cydDbl90teq76AjYzLL00HYTcdzbMNAsbaIzrdzhX3qJOMp6BnTdBZfr8M3wTRVPPYEZZlpbB23O8Kt9LbaMttCGTxef3NJ6z2Omi 1805032088
+   |   0) 8tZaympVhvLfJ8jC4re6ieanKc4z651sdr50N1H4EgjRw7cJUGVHSkr1dEMQArVC0zHiJfRibEIHtejk7FskB7KxPK9k4Q6gyP30o1utLrdUspVaruwwgDZA 506184170
+   |   1) Ai9eI9dG6LNT7unszpPsyjoLrVyCZdJwB3jtpZtKTfgyT1uyF9JAqwRXOYBuqfczIDNhkit7owqe9z3hE78QjGzTaPHEgIFy9NHYV00rMBYk3eBlfMje24iX 1209182792
+   |   2) BXydo8jLzBiUPWx9sDB6T8C6ZjZOSbJsuBsjxveVwYynkfkW2f7aslpWTJ2oT48XxvppPyTjoLx8YOIEwsiXxSOW2IlJh61ejV72MPMMaLNqFcQ19rG0YbCL 1469732544
+   0) GfRyWBc6xMDFtDWNBYR1vqUo9igxCku42ZamXBbccfmtbkJG0fR9RW92HV2vWIRiYACY0H4G34bui62ypILAu46ph0nKFBWFtMzbs5CCGAurS2RtFXyfx1nq 633199982
+   1) KRgFVP7EUKCGBxVVA8jXYXLYbjenCfLdFbWWTZRX8fAXNlB1wu1rLs2CGSOgCH8SbikUQABHPh8y7WmqtHo2AdcqDxGW0xtefWY0A2hs7O12vRvLRa48udlw 1580644873
+   |   0) E2zfxTYVDE7cTAeIEYKecWfsQ0RGK1O4BmOuUAzstX0oaFGrpf4kP6z1DX1bQhcKqyG7n3N51UEqFGaM5CE0Gufxs6kWjgyIhvB3yRFWP8EenfkBrwNSOXyq 936611516
+   |   1) FTYtU44GIO7GEMpVdh1WBHaV4mAIiqtG9q3xx0EMkXnP0ItZ5Cttl0PggxJ3YCsfgB0BvcrjQyuXy34wvCKqqmIqYwODp9El8pEvKWQuMf1GMwnkybWDMAq2 1759763980
+   |   0) HgSxcYhw1AdGGkco6iLhv8csu4BZeCRkeEFsV0qeq8vE6yfiww9KOXtMvOiw2PQiaVKkgcJoDL4jtbQnHH6hkEjV8AhOyOdyTOaY4Auxm5qJlizarnveZFJI 1084225317
+   |   1) ItpsoW3APt4JhrEip3GNtU1cwLbsnBjd5vxYHsU4b2fBbRoPM5aXbeHO7OrJ997ffj3eVnsDX8bXF07jv1jTURR9iqMW1qg1N7qYLAXzwhG076VFMq1aeMYM 1832110932
+   |   2) JhozkmSIYAA9eBZXPzgniq8qGmpfr6dFlVxBe0nNPA0p0ZB2M4PsJFHtKPbj51xAFf3zOR2eUUglWEGFC78z1PRw7NVLaY3gIOTmR2qcTGUSGFHWwBp681TA 1343016774
+   |   0) MLx4Tw2BlYVDvDhrCpTPeVcUzIdlO46bebiUq63QJLrYfuCjpItjv6LhP7zeUlBYcIhp8cdwwfzwPVSNQwj3OvXPd4KjfBEIJAwVLX2Dgt8Y1bwgrfoiG77M 846463318
+   |   1) Njk31crp1Rs9vFBdSVyn8VpI1PPFeh4IBcP25s4xRx1YItDd9NLk41K7wmx5mycZkS0MgudJ94DHRCbwVKlyr7iHaqXclCIaHEpTqy8Z8w45GvQHYg0HMQeQ 560477645
+   |   2) OoJ4J4ReovU183B9mf6PrPjktBi7t1BfOHsZjNjPL5fVK6yrxZ0pStD2iCWfiv39sM3CsAksF7OreRRvUULvhartPIVtWWeOMbdyRDPsnR4exWknxbfsXsZD 2092378880
+...
+   |   ...
+   0) VDupy5WVJw4DYwsHNS61mkcyHHj7UIPGJFfEp1OES5b3YNPNKl3cGpEfWyEPEkWYwDbBgDiEb4A99r6ijdCu7QAbXrESlYCBZe1Teirbu3Wt2AD4Tt5BRAMP 820557601
+   1) ZHwjef2cfgHO78mTzt0HPqUEKsCJo3vN3ceziFwFKrXe4IYNkHWAD0lWgiSfiXMBaX5B0EvVtHEGwSBoQQhURbppvVDGLD60ro5sunksqoEKl2OsQyk0TLR1 79554331
+   2) dKO2Xr8tpsQRdeJXCQCS3rKwrhfjVe7WmYFdbYvt8TcjBVjxRBPSuI890jtZqgw2Fxgc1wuKvWlgL7zDbKnu1GfDHigFodLjkE5lOQIL7dKczv4Ap4WZ5BTj 149890230
+...
+   |   0) SZgBYp8Pr30jTtfpIanLpQmnwjYwGEuzM5XGqUjHI1kDom3eQCPGbcHZbOlsGsqQFtqeU0LNf07yaZ9o4yv9zndGz4iPwxYVxLiB7bcS4qveqZFaYcr6KDJ8 1217360677
+   |   1) TUa6vPXC9vJsw4ufRKyupyWr6SgpMPSu5GVqCePkjionN3ZdN8BowxfeAcBW7t1FqSWIptWu3ps79CHn3a5XcZjmwrOb4ASOvwG0NHDlGrJ77euB8xbEbOWg 1884549968
+   |   2) UHBQmfBIYV3LIddWSgo0oNhzslSHlqFHo8l5gPTiHU1VXmWokuYU5XJhzVRKG0xmFtwkKrg93W9jTT9dhVOLdsGHjTLVs90u933URNMa9evGGl6bT9kfpeer 1340484764
+   |   0) WHJMiyYN5zWXMr0Qet3q0oxc5YPGO3mgAES2NQOoZYgOmomCxhd33U23XDUiYqaoiq6sEAdBGRy63l9cn4U8e3wXXO5nc5ztHsJzsKKK8JDUSriwZEWHs5yN 180972788
+   |   1) XDlRTHKXIiGJyVrZt8D8nSaNvWbFatjOceb0KBeU6gFtbwSTCIdu252FeBMvoJTJi4EMaucC0cLlqXcRNcy1xsA79h6bH780Sa0Ve0Z5rRlAiQxj7IuQR9Dz 1153475521
+   |   2) YPuER6hsOKcMQ0Le227d81wId5mB96D289E7rSfx4cEyixl7xIwxTR2lA4YDCSJKKulXVXCJlERBBdTl0azUaC7hLxZIYwTU475NsLIXXnfo2rrZY9GmJmSs 729214631
+   |   0) azlL9t4HoznGZWrkfQ6t3PcIWovG19fjUmpnL8tK7qNzYEsDDNKDi08gp4QAiCWiB1B6ls3K2efFiXKyjrd31AUeogHgFlElj5krTULK6V0Nz21tRnTrd89W 1360659183
+   |   1) cR1niAIthsWvZQSHIlYLgsBSSxZuEwqU81bqRVtb2V9Ss8LR1QCgTVDLhwTZ97fN2edzgJRgPIJbLEyfsh85viHkdLqffaWxhE6DYTUxdXztCTyxWoqXT5Lg 806461442
+   ...
+./a.out : Task = 1 Result = 0 Elapsed = 0.00
+./a.out : Task = 2 Result = 7291 Elapsed = 0.00
+./a.out : Task = 3 Result = 16564 Elapsed = 0.00
+./a.out : Task = 4 Result = 7291 Elapsed = 0.00
+./a.out : Task = 5 Result = 38 Elapsed = 0.00
+./a.out : Task = 6 Result = 0 Elapsed = 0.00
+./a.out 2 0 10 test_1e4.txt
+tree has been reading 0.03s
+./a.out : Task = 1 Result = 0 Elapsed = 0.00
+./a.out : Task = 2 Result = 16564 Elapsed = 0.00
+./a.out : Task = 3 Result = 66305 Elapsed = 0.00
+./a.out : Task = 4 Result = 17543 Elapsed = 0.00
+./a.out : Task = 5 Result = 0 Elapsed = 0.00
+./a.out : Task = 6 Result = 0 Elapsed = 0.00
+./a.out 2 0 5 test_1e4.txt
+tree has been reading 0.03s
+./a.out : Task = 1 Result = 808 Elapsed = 0.00
+./a.out : Task = 2 Result = 14126 Elapsed = 0.00
+./a.out : Task = 3 Result = 46308 Elapsed = 0.00
+./a.out : Task = 4 Result = 16564 Elapsed = 0.00
+./a.out : Task = 5 Result = 1982 Elapsed = 0.00
+./a.out : Task = 6 Result = 0 Elapsed = 0.00
+./a.out 2 0 7 test_1e4.txt
+tree has been reading 0.03s
+./a.out : Task = 1 Result = 0 Elapsed = 0.00
+./a.out : Task = 2 Result = 16564 Elapsed = 0.00
+./a.out : Task = 3 Result = 66305 Elapsed = 0.00
+./a.out : Task = 4 Result = 16564 Elapsed = 0.00
+./a.out : Task = 5 Result = 0 Elapsed = 0.00
+./a.out : Task = 6 Result = 53792 Elapsed = 0.00
+./a.out 2 0 0 test_1e4.txt
+tree has been reading 0.03s
+./a.out : Task = 1 Result = 7291 Elapsed = 0.00
+./a.out : Task = 2 Result = 0 Elapsed = 0.00
+./a.out : Task = 3 Result = 0 Elapsed = 0.00
+./a.out : Task = 4 Result = 0 Elapsed = 0.00
+./a.out : Task = 5 Result = 3 Elapsed = 0.00
+./a.out : Task = 6 Result = 0 Elapsed = 0.00
+echo "5---------------------------5"
+5---------------------------5
+./a.out 5 2 0 test_1e4.txt
+tree has been reading 0.03s
+0) SQaJDOabmexCJVwKCgCT7t4Nia2b9vk4N6ttJB5poc7XPscj0zdTCA0nTUexfFfpFWTBCyUXquZWjNBwP8iIlC0VLPpRlmdn5fmUsqYJ8F4wlCXsMBFqd9Ct 606358989
+   0) 4eL1yOyw7lQIDf0F09twOq2wjLWYPiPYZroAcTwRysBaRJTUXgVhnsnoMc2ui61WjfKMboS1pWP5yUeADhwZOkBUI3oGM2tRThuXKOpHdtBRNSi7o2tXHGp2 1503979042
+   1) 70I98N3SDSX0dfqItshuH6vpm03DYrGfKxrOLzLDcUQMPwS81ADNnY5jGndN3jaH1UJxq2KLMJffKKWcktin9qhnJFveg5uxDBR1L5saK7c1uqnIQ6L45mUi 2027476601
+...
+   ...
+   0) W8UltP8bSr39I9r2bKQj8CKO9scFz2ZNMlmto6Es0cvVAJamIKfL3DWmaDODrDtGVfshjXknJzWiKLf2WxRtimvUvxaggQmjLbUmmsC6e7rPNfHU7RXm9Nyk 1797287973
+   1) YPuER6hsOKcMQ0Le227d81wId5mB96D289E7rSfx4cEyixl7xIwxTR2lA4YDCSJKKulXVXCJlERBBdTl0azUaC7hLxZIYwTU475NsLIXXnfo2rrZY9GmJmSs 729214631
+...
+   ...
+./a.out : Task = 1 Result = 8723 Elapsed = 0.00
+./a.out : Task = 2 Result = 0 Elapsed = 0.00
+./a.out : Task = 3 Result = 0 Elapsed = 0.00
+./a.out : Task = 4 Result = 0 Elapsed = 0.00
+./a.out : Task = 5 Result = 1 Elapsed = 0.00
+./a.out : Task = 6 Result = 0 Elapsed = 0.00
+./a.out 5 0 1 test_1e4.txt
+tree has been reading 0.03s
+./a.out : Task = 1 Result = 0 Elapsed = 0.00
+./a.out : Task = 2 Result = 8723 Elapsed = 0.00
+./a.out : Task = 3 Result = 8723 Elapsed = 0.00
+./a.out : Task = 4 Result = 8723 Elapsed = 0.00
+./a.out : Task = 5 Result = 18 Elapsed = 0.00
+./a.out : Task = 6 Result = 0 Elapsed = 0.00
+./a.out 5 0 5 test_1e4.txt
+tree has been reading 0.03s
+./a.out : Task = 1 Result = 0 Elapsed = 0.00
+./a.out : Task = 2 Result = 8723 Elapsed = 0.00
+./a.out : Task = 3 Result = 48542 Elapsed = 0.00
+./a.out : Task = 4 Result = 8723 Elapsed = 0.00
+./a.out : Task = 5 Result = 0 Elapsed = 0.00
+./a.out : Task = 6 Result = 40384 Elapsed = 0.00
+./a.out 5 0 7 test_1e4.txt
+tree has been reading 0.03s
+./a.out : Task = 1 Result = 234 Elapsed = 0.00
+./a.out : Task = 2 Result = 10898 Elapsed = 0.00
+./a.out : Task = 3 Result = 48542 Elapsed = 0.00
+./a.out : Task = 4 Result = 12815 Elapsed = 0.00
+./a.out : Task = 5 Result = 0 Elapsed = 0.00
+./a.out : Task = 6 Result = 0 Elapsed = 0.00
+./a.out 25 0 10 test_1e4.txt
+tree has been reading 0.03s
+./a.out : Task = 1 Result = 0 Elapsed = 0.00
+./a.out : Task = 2 Result = 9719 Elapsed = 0.00
+./a.out : Task = 3 Result = 29712 Elapsed = 0.00
+./a.out : Task = 4 Result = 9719 Elapsed = 0.00
+./a.out : Task = 5 Result = 0 Elapsed = 0.00
+./a.out : Task = 6 Result = 0 Elapsed = 0.00
+./a.out 25 0 2 test_1e4.txt
+tree has been reading 0.03s
+./a.out : Task = 1 Result = 0 Elapsed = 0.00
+./a.out : Task = 2 Result = 9719 Elapsed = 0.00
+./a.out : Task = 3 Result = 19712 Elapsed = 0.00
+./a.out : Task = 4 Result = 9719 Elapsed = 0.00
+./a.out : Task = 5 Result = 9719 Elapsed = 0.00
+./a.out : Task = 6 Result = 0 Elapsed = 0.00
+echo "25-------------------------25"
+25-------------------------25
+./a.out 25 1 3 test_1e4.txt
+tree has been reading 0.03s
+0) 6vREy7VLe0SFXX6Peip554rYSEisSIrKU2o1PRJ0tqeAscQsFg7HLrjv2i7QdT4wgQ70dVonL4eULFNyhAe1RqXXGKIlEWxxzaJpCrUuBC99KVpizc0Ltzg0 1641709293
+...
+...
+./a.out : Task = 1 Result = 0 Elapsed = 0.00
+./a.out : Task = 2 Result = 9719 Elapsed = 0.00
+./a.out : Task = 3 Result = 29712 Elapsed = 0.00
+./a.out : Task = 4 Result = 9719 Elapsed = 0.00
+./a.out : Task = 5 Result = 0 Elapsed = 0.00
+./a.out : Task = 6 Result = 21471 Elapsed = 0.00
+echo "==============test_1e6.txt=============="
+==============test_1e6.txt==============
+./a.out 2 4 1 test_1e6.txt
+tree has been reading 4.93s
+0) VpW3f57zAvd8GlwbCITZY6HbOydnsKGraaICZXyQWMaJ5sb44B5Z2bd1mHFzO5JUUU2sX4jiZWQyOl9EQrUl5xnqG6csekpoyb7g7ctyl6dXzEdknIP2sdHi 1200875795
+   0) 7PQlQoNAIGs5MWz6dHm0n2pUtEnp4K3434griSzgmJVhI9fLzEtFvu1slBeGgj8NlM2YOKilzHiUxQ3hrDJOXY07ZXw6EZVEzu48tla7fPU2lbi3XB417cty 1731115896
+   1) GKDfNPYHpBAYv1I6WXWbjU2tAGr8FgSU0ipqHFg79e4DpoSZ1tW8ohp2B0Vovb34jwGXm00MWBmNZimUQV0FaRMJ4TSknr7F9dl5wPL7McUWEkj0CZrB45Nu 2032240893
+   2) OmJCYnEV41eukxJjsHWykB1v3ob8bUuI2ynSUATCVf8SnWLLdx72c0BOCawlRDWCI7wYpmYdFHLsnHQgQacUubqasLdSBy3RAXN2WLMyypoOW67N523ynKd5 311568683
+   |   0) 2DOssw8S5lmv5Zpl04ainMwEILGa3Kmmsklv7O5CfMNzlrHtPf2YxwYjzjNLB1hAUaLwYLKf6ZRhsEBuZ9d6Huksy1wFUkLRR46oD1NMbOSMeIEqy3hNBUo0 210628107
+   |   1) 4gGPKTmM8E150KxJ8eof1AMCeqOxrn4ydYDt669DRCSfebjy8kPbUBbtY8d7NREfWQBgV4AV1UxbwIBy1oWuCaiWzmRzw30QrFWN0O60H3J86PlVsgFksPCu 690728230
+   |   |   0) 0cQPxjrYQ27duv3X9S1B0n1dxxelqPXkkVxbwyWEcJ30ELgp4FYWrCut0DlYEo6uz7pq2DaerWWWanWCDeZMEgUfl89T4DUzkkGspBg4UTz6SEed7u0kXtjQ 1177719134
+   |   |   1) 1JkEVNj8IdGf0DQRtAjWrroR5C3OvHn2EOOHA8z9OfRmWY0T0S9LurxQsJTSR4cSkJsOER5VXLKXCqtzEPXceobutu5Cf8yRBLXomZxiIC5BYRSnMfPvahtK 56658058
+   |   |   2) 1nPYTEXQmD58uBjm2k4oQXZ55b14T0ZtMJRquvdeqix8vTmlxEs0LGhJCGlMpXafr0IXnEPUFeJaVfDU2fWExIRhJospwE0IjW6f5HdAEB4GS1YNuaAFTgqq 1088009843
+   |   |   0) 2t9fK9ayGhGtSlC8ZsPfpGFOyrce8KglpmLgclYpLKpcJV0ak2YvydXLv17iZk603HGHBVMLZwAnHNcSQ89QwjJkZxCmEo6GxqYefmnP9BkNgzEZixLeYnaQ 783020887
+   |   |   1) 3Hxo5xYwyoEDlhmzKg88NOHGn2fOCec19fvBLhV3dacgFHGpf2lihKwR2i9RMwVYCehwmRIfGNo9b3iSw7jX850b9iImCL5VTvX5VhiprZpBp8QfkqXDLaQG 1045215319
+   |   |   2) 3hyAdD7Eo7FoGzQnRqo2uNa3J6By3psLizqiDOSRmtlDX6NDPp9mSjgbSOTurLbU5jfOdAPKnwdcT7UEj2zYIowG4cu21PUaxktgtU1BueMNGANOp7uIN3gH 1494196894
+   |   |   3) 4FtS35qGy0jWZ2z5rCUU3TeqUXASil0xp7wylsUl2HQJpngc74wxhQViEWSXDom9B0ZgztLHwbmW5BFzdpgHfxIEHk2l5J5PHZuHxozlan4T9pPpkU2fhF52 687386748
+   |   |   0) 55qHYvT6fRt9ZdLDPdqBU02fKGA7C7CcQGCOPUZzgA5ucPMYhOvnVVMM8zzk8wKEkeGwKMCtZXO2tRLTiPGiViHKri4Z6608gCFhbw28lHZYWN4pb5HhHhtm 557945544
+   |   |   1) 5ZeOpBoxZrBdzERV3HzjIYjR4QDjEQZlBr2ZRa76nPnlfvUxOHf2UJfnj1ykn8JRXCxoJxM6RhL1sfGBrrvsETOBZf6Ahu2006ww3Hlos1J6kMVlprYpd9rc 1461659004
+   |   |   2) 64KGsH1botLXxBUejE74SJ9792UlpSrYUoq2kBTOhuoboT682BVo5KtxvSw2AW4AQEGbCzTNKqesSyLnHupakpwFT4H4tvdL62SO4CVu6vGlLoqsgleDxkD4 875184304
+   |   |   3) 6VYQ2vEAiqUI8MTKIlVqF0fmSU0jnfyfrUU6qHUEgRDZa9Xtb5WXoroy3ErfxWp3iqf4zUWL8T60bsEVQavtjw6DpxSeIjWGJjolGX5Nwy1cGF0nRF3GVyL3 1471197200
+   |   0) 9byKwG1okYECJhT9Px5PmGhdeorKfd7qgwuLwYxTUulxC0ehA7VUzUHT1B6XAVLBA1PiEibNs0BGB6Z8vU3qNJuo7ByLrY9yLYQU2BtiORnhBWmshyfjn3DU 1336448947
+   |   1) BPT50RdaDtxtYjGG3ZeOKKGfST57K9rdeXbc3Nd6S4hqDmke1MMaIGsxaY5oKS111XoJ3LmMsXNEyWAHZMdTiV15AjNBxzA7UBBsl5hMuMkEH4FhGyC6TPM6 146978510
+   |   2) DE2OhFRrmPiLFMFmwPZt3fb7fHRYXhapQGALLu9hFF1zVYozTkUKSjXaplj0WZ66xsYjGdQN2RiGazhraZRpG79AeeJRDf4hGLoxKaGe7qnqijr5mTerMQdp 1587420523
+   |   3) Ej5PPqP7LkZ7LRzwc89zOU5cqmWfpgd0ZdrxqKMx2rX8gnu3PJpsH59oseaDt34Qe2cA61obUdDaNEGsqSZ2iGy7WsPOGqF4DIpep2nHbu3iPUUYYGyb5qpK 1256390312
+   |   |   0) 8CJBV0lPmt32rlr8gyZOs9TqMqyBB6omsOY9UeIWBM3GKS5vvYFLGs9hubbD5URPPeWOU1bMoJpgeadNPT7Y1LiCH1b7Y0ZXTzT1jka32uEBoAY5qfRhdncl 35543829
+   |   |   1) 8YW5R4nDinG9YwqskeHmH9096CAczNAQC9voUdCZn7oEk0wF8MRA0xPVlYsVaGxuunC97q4ZRvuf8kLocFxByhp5efyMVQ5oEc67B8JN5MLksJMj8m3fsMH9 763469320
+   |   |   2) 8yJ7ntiX4kbkIm8ae1G1jdwg9H6NhtovfbVgEgOvzeqOifqYUDAJWcUDo8X59tChxgdfdFlztcrLv12e2GSj3JMn9W9wsjPOblZXcUPbOcvL4GxND5KsS16w 146173796
+   |   |   0) AFSlAiokhqw4EU8K0tenOOWkvfMpSfkR9Icj0tRGnuCFig83OxDKYO8jYtOo3kHKfQR5ZM0eChmQn8BX1K1XwBceus8kf2vdjYJjn9bS1FiZOkc1Wh2dvyNz 1808293083
+   |   |   1) ArVpPN444llwl64zqzaUrgZGnjf3eeBbeJDFywPvsPj6ZDG5wYcDGf0Un9rukda6OEAdfELPEQkPOgmJB63eAjXF9eEMlp3ljix1Fd1G2J2YQvfMw8jCKu36 1466600375
+   |   |   0) C88vy4FE1kWzZmHZ8ROnIFRBTXjXViG2Cewkl1gmmIKRLVnQhBGp3YahGOn8kxuzG9GMlj5AjnJN0lJYti2YTz1RxVpU3fZfBqztfUcPti3EC5WqlZbS7QqG 894011067
+   |   |   1) Cg1Kf0jvKIE02M6rRXZFaJKB15wlE9JI0DMOJRqvljznBRyBhXtjNqudqu6EwnjOLm2Y9Tmp9UkSApJbkfK5cbG65MwQwj3CdwJok0yqDRcB4VW8yUipqWZu 878119406
+   |   |   0) DtLerQ2Afr1TufPlJZYJmqhoT40jPaJ0NffPl8VY1ozFqhAaCE0Sjbk6veHNuZPPk4ywVbK7fDwOSJB2Hojhkken8p5mQMr5LK93x3XKhRxqnQeOCQ09Mu8e 2109572636
+   |   |   1) EJxzlb2OWN8uMFwmKRH1cPDouoHc4FjLBvG11XYyril9GJYy2rIYPfBZFqMG68E2eg1Qn8OmJ0Ye4ioyHobvsMoN3CJvm09vytTLvEGTPqY76fUUguhrmPyG 1451269955
+   |   0) Irw9zSM1PnMz89WqCtjrNWyx2rn1wdYBdNwBnMK5f5eRhQ5msfHgqiAzViqH8qAnKoOekiIFZ6xD7k5D7GfWshWtad2HczuNF6jhF9rgVsUxHuWeXjK8GWTk 1058171367
+   |   1) KoxPl4cOObdBPftfsmK0KSzDJZ6StsppWvWDnvtZ4eV1WZk4rASTFpJWdageSLCIOf8AuPOMYunPtKCTSfgRDv662ppPi9oPa3J9T5ifNVWwh4h9u31LGf1B 1863632945
+   |   2) Mn0MnBdvNW9zE2vq6BLnlUOrgVoyrKtCbvMzN1a4ndW1NtH9wvLXNfR5UslqkIXWcWyIop8GwaZVvN7EfknGRz3abDj1ue2LaafIi73kr2PLW21vidzIc7zB 1918226744
+   |   |   0) H6RrPRPIwnLjdxiVyp5qClvRvzHd12RRIAnmBOXY5g4hpAhpHSDisshiKE882YivVPNrRyUhJOPrPe4drD8pLhFWMWQjl6rAuVvbkILaPJVSMrdPZlKqGJ5v 1392673001
+   |   |   1) HchscVVizFZqOWILkBpA5CVhdojCgaQEAnAPZvTTfZ5qFluy6cruyMDOVGX9mkYVIaYPdElPJ1QxGmAMfTvEKfdzwt1z0cJjXKx61f0b5DLdUDuitGyF575g 1189739898
+   |   |   2) I5sGfdNj6pjhqkJZNCtqhAxaPj5oNXYiCXguPhyAv8IrYDRby8c15OOd2bQgfxVeIpvJDeeiPUZ1Z2Wkn6e2qe5syMdUm0Dwcrwbycyw6soeEsZfUuk9Rnbh 893672024
+   |   |   0) JZPD3lecRgzRxjCQHgoevjZ8XO2ItAt504MWLbATqmGRK9mNS2l0giVKvRRVlRc932jvMWxw1isI9FC7XIdax702ediaLgG5fNe43pfnIB8KI9S3VsD2BEw8 454484748
+   |   |   1) K9mx8FPRMxUZUPx8P7UgmuXzZ5X3n4tbb58Kyo9LKJuDtFrS0IzArKuK7tKwjXNxDzsK3sX74cHGfrognEbQKYg6vEBipnE452ybfRQKiONH5NegGIURQOH4 1657624418
+   |   |   0) LWI83IoRYN9kpu6jVrB0Hk25FogyYBGJnJqihVHgGa6VEZzobdsWEaQMWKsUOAnWdCRdOGKQXfeDgMcePWLgC56UAD5LxXrSNM6Id5vzyeLUGkL5nisYsTpq 1887398517
+   |   |   1) MFr3Kn9kywAOvZQni3LQKQl2y6ijrOdjeWBuyW9FYkcyqxqYCMQuvV2CAGa9nOy4tcEGx22qvKwODGlDblceKCGdCUqShitDetvNawWWmDXsSnwsdoJlWyTE 2045124023
+   |   |   0) NQbdJwja6yWcYJabzTT2aSxFt3J45AMhJvHvDhoTmvcrzELmtWGmG9iCkQN023SzlJZItPBnEMj6gkZPIuQ8spnRt58TRmkw4hpcjffxlcSvL8brcRzSsGXp 1053192795
+   |   |   1) O5UhZDTWIUQvp971q97jR0LcsDQhFYTGFA4LrRyMBQmWIcXqTpwhU7dmasZXv9X8PhjAan2w8uaWsiiqPbmuEeGlRDHGhQq2NcW454N5BcjmpoDX5TP8ZvGm 1067763239
+   |   0) QnXLHPl69Drtcco02tNv5DfHFNImArZu8TSJSednSJAvHjIhbbR7GtYKSLLKfwz87ornXSgRfnfMAFsnusMnYDoDBAK8VIVpOU8UHRYc9HmzSuNbmawIVYGy 1514771380
+   |   1) SjVCFkGlXtSLb2tuvCAlwWy6Bqb1mjgYGmyEub5SWSHjKDkBBrtGIfHfdO2Mp0R0OOylGVpwvu6W6B78F5KFkmUT4r4UR6uOzuZe2v8R57hm6G2UpGD23eam 1641220805
+   |   2) UEKjalm0jrm6Ff52VE5npWMjjXory7EE9anVvg5ZPrca77NzwzUOjnd9cSoash47pxHbgAerIAEnTBNFxlEiHmHXVloTIe4TitNLVYD8zv2uBHaV8iUFNHQZ 388345865
+   |   |   0) PVBH8rOr6eHv63J9DcGyvmIewl6qAxVaXwL2WNFZps4P4R4njFgUR3I1vGmoU3qVcEN2vGg7JBb98SdxGXOamV2ZyDrGzZw9oFVAdC7eKTgv3GR7kQQGjcxS 79121173
+   |   |   1) QAqwcpqxEctnBngfTmB91bERjhswDTklDmxhpPgtda3K6ov8EiNfCh9Otsr86BsWk1iKUyY3mbxWyJsDWZtpdUcOS0hONAGyEaUMPbufFhW4TP2yVCXMVldY 1149480882
+   |   |   0) RTcWEXOTyOjnLvttumQNJGV2PdEVB4ow1tPhIGHLjytyU1A4vKYR2sThY19BFKGhiw0NWADHwd3nhfxsO5qkoEFKMgswvIESJwdX3nP1vf56CtqVR2y7Mraj 986868456
+   |   |   1) S9Aa28aFBLhJcX1AMOBa1HqxEydhUjn2SZjZKU1IuOZCvyElVncWzZwSzgW3bbgGMpceo1pKShmGgBLsUsOcdZAilZNrklNDdvRblZhdnHk5lZx5jFVTFOdi 1445851652
+   |   |   0) TBHYk1JqmpjRH5OlzN6Y4ucX52UoYPm8WXQBl8A8S9QxxfKESYzrr5XNCwpDTnW9x4BWNJsyC90Na8JqK0zjEReW4RxALQao88C5cjQPIIesBk7wZy8goxNJ 1164096441
+   |   |   1) TbToAelqwCnMI81VMQzJXUFn9yflc3lrLGTcAL1a281yAXnXAfLuIAed7A1kDijN0NDlCNuaRmtgQihBXjsOOQ8JDEWY5t4BI3CtYN7QJD22WSRBF5ea7OIa 1806670673
+   |   |   0) Uv5zCAe5fGXGbThlpsCVC9rgipKJbi8f3cFzjRfoLNNlbYAJcVrSrdz8ZAe8qv4YbHdI1IqdYX0QMErmGwjVsjnD96jQVJz25zxjoPgVrU9VIu7i01bYinvY 868406483
+   |   |   1) VL28SiHDIAHAeqM4TQsIfWav6Zy3SHuiGft2hz1817BQlyucSn77UGGFwfx1cjRerM2syTocHP4E6bGUpPRxNJvQBb0ZEd6fXncDl13jxaU5kVQ2mzD1lH6f 1130006743
+   0) eMrqmMfPPU01BH080zuyRBwSCwAJ7yrqLQMBsMhhEwIG7T1Tkx2zDgrzLItVsUSxeHFJBL2S0sWQlSaBrH3QRrAWtIlJyGS6CqxX4FgX8OPK4RBRgreZ6WnN 1350312790
+   1) lfcVDhlYjR2GFBvs5mVQtGfZFAA5o9hJ7LskdQLZ4P1GOTcfJUB5XqiJHHGBXLyRzfSObYvnHfEmCwEjTDbobnVBiOiisJHQDdAh3HcJTZjyO7p5bzVK1Aw7 1938375031
+   2) sMJlqhf8sRiceHGyXcz2BlIKNae1EOVGbj9h4T5rQP5iGJz4qHgqljjs45QEqOhrcXuIjDI03VRR1wLfWNUNLJ0FKBrjQc2pCccMF99lxYxS2DtkFg4xfeVh 576796977
+   |   0) Yj6AgERtDGX0qCu9iml0SQBegjYr48AnHWMcL0c5kS7zCnSjtBNCTYlHmiRddNlhUt516CKsTBNKHzpPpIjDwK8C6RFmQtv4DbZVGoODRlaBSAeyHGWCsK7h 438780948
+   |   1) bOcsgp8nHqBWjPno3YKqcS2n7RmtYaLB5oaQRzWGbS6XNoOtNU6XlJYi4zAB5cwPfuSdRoabEGATS3ktSshXnzsSVWaH865O0PurrrBXHRx6DnEdafeYIJ6W 46001751
+   |   |   0) WmORlhkvqqlHYZL8X9N4ADcagRyqNXYHBUTwFqr69y0ZbKVwRjsjsJYO89mmRJ6fAcuVUNJYN3VeXmi6EWBzXCXTnnHcDWOQx6Ij8LeEurIPU05cDXatMdyr 1016925573
+   |   |   1) XVR6Gqvpn7OBcU9YjDJ4GnVPEeHfpQmeRBHmawlObH7hTBVX8V71yhCFM5HACApntATTkEugQtGfu96OqHwcoGJCopTzDbgCoudckSEhUIcWjhhBJTbCdFy0 716142349
+   |   |   2) YC3BWsvZ99hPXyLXYr4nrXf4RB45U6GrSz9j6jxHcvaiWJUkv9VoHrbN7kXlcVJCnB9qvoRksuRc7KB39gihLDA3tu3CmIKu4eMh5r3arJ3DIt8cJlHl7JXY 683064276
+   |   |   0) ZAK7eCU0s15I5EqegaxVxxWpyEcOB48mjUd9rpUVmnZEIWMzGcIwNruqDnA30cLzcUv39rLIPlPv5TQJGvK4JOuqXE36r30DvGAO05I0ZJuXq37gcBqm4f7X 1214183037
+   |   |   1) ZbY1W2TwE4tOLaqP4Wc2dBdy496WQyUQS3XMhcpfMd1ru2vGqo5uo1q4xaZV1HudfLZhDVRDPY8P6BUbVfBtf8syiZl61LpRNFnNrBjJMX8zBTUPTrmOCCRB 1768748507
+   |   |   2) a2VHDJw1RQmfr6TGAEdywgB2DMhznpRMbQW6hFj3OdB2gkRI4D0yypqsa7lTXp7jjnTCShFRiVzgh7D4z0o1aOantGvO2C46NnLklmtfFHxJfUkP0mnEnXFU 1021396342
+   |   |   3) aaPDwPYE8ytMUSEUslcPVwqbFW69TWhSE5NU89t9eiWw9HebNmNJ9UrlS2EhgqU0oHJU900ZNheT3tTkZPKskbKnoBBjseGs3RhndCva2P0kSXuZjoLi7WYP 2022581095
+   |   |   0) c4AzvgH0x12wdw8CbRPORFGjOLRJHnxUMZMcK1BmtJBROk9DIAGcWD3g3I417hutZvifJcVGeeMtF652inWdFU7Pi6W1BPMdDHpdPpH24oxQQepwn9mgu3EW 1837767245
+   |   |   1) cWshJ6aAxMaJqn8C3oMQyekGyiq0YsVfHZX44oWO4kd9l1gyMtl0YhBqOM2BGH0eJB8bRlEQniuhYbFk8tZ7ztAWU4187pTOzvWeYw3dxl3bFNQ7bG8eenJx 2147092864
+   |   |   2) d3tZHnatqhywwsmzdK3ChPcmoyPXScuW5FjyO63qmY9eGSqwIMXKsWYkh1objjmi7V9AWIEqfOPxYo39bjQkau3j8vWwRroOFM3IHfhET547wLVNnHWp8vzJ 748584314
+   |   |   3) det18jSal8MsUZ64JB7Xx7feBBvq2nJudTxGpdgjrZB35cUT53auBhK3FCX0HXAkrYwsrQZIhXY7TtI3Zk3DRVPxwFFDIeQrNdUDE6o1QswOfCWIsDiOYkaI 867717394
+   |   0) g54huTIT9WnPeGPMF4ygwqM3wt1268sNv7JUbLPNGDwvGxN9ZElZ4aSHtj7G0wcqC3e974tEYLQUDU0KyVluqyq67v3iSEtuFts0wwT5EVj1lIZBcwfBM10u 1622182053
+   |   1) hug5ek6Cg7fDtyfXY2GQWnBZNSAXfhk2Bi7bhkYb5Vtt06jVzIO8yJPT8cEOicppzqscaFpjtMKg3JOZkiNrAS8qEgweAb9igrEu74dTeEbTnKbvVAhyEBsP 627412997
+   |   2) k4JahXRf8XutPtPYknT0s4xDDrWcQfEaMtDi80kh12WEomV2XskyfrzOq08XLm1wNKrEU45O57EjzKZW12CH0v4UjjfJPoGEJJb0KF3JOUbHgIz8zT48tzeU 1859418540
+   |   |   0) eyXsydW6zFFtBK82WJp5uABEyhQI9FcrE4vMEEqQvJLqHQeBCJUXxicCcVXdlb2lXjjCtw6rsfipuVk2LowgiVxj1wwGdamyVTLwxGBTpZ7qkhiEG50ZIdQj 520699840
+   |   |   1) fS2YQBRpaX7mY65aPsiqkPXCIRFeI4sOqsm2lQejFfIacsDhi0G4gE6K924QSu5vvuCyN3Brd1woQtBk1jYl9tznGjZg7uG9t088dm0ccxBFpgxRIBS1ZdM2 814759291
+   |   |   0) geNYgEbbrpNQjgg8t7UQdQHa4U3N1g78NXVd9sVFiBm29qeIjBpBZyJMAetLalFvYdu3AMw858FHiaDNc7YyUXMFQQlcquIJAXmQwXf4sU672cQ2xnaYz5Zg 916199941
+   |   |   1) hDX8Tpcn6TXHzhNAZFdxc3XOCgVgAeTkNkhvR3UQEck6sp9SFbaRmMOVwa7nTMDNlayq7ary9QYaJBhGzQ4OhO6kVoXmVyOPrbYLY5AZno81acfFo4fEshMo 1442412733
+   |   |   0) iKKChb6Ff1iwabY15GFOgCh4spLI06RHrtuzmDx38KTsyeRZLhl2lSv3q6wmyt9ezVkUabCRBPUPeF6NVSXoBUjVQE2bfPWf8JVwNEfXfmqKVDm3bCPBoScQ 196098834
+   |   |   1) iiBz2WQ2h6KN92FWNjeUur9sTAUoCeARImyfqYxwo4vxJlFnwZhOHASxTMpsshrcLKXJS7Y7KoHroTpclXFwNAYSunKiJ1tFX84iiOrTsZnzbSdrOgbg4UTX 789319592
+   |   |   2) jKEtDBJE6vXe1NdUCQYFJuOjhBZk8uR7Cbbf5ThF5ECEUwMepz6TixV452ra6NNgUXiWooyF4b3JDpPwLYKJpgoG3SqAsBHUqmZ4qgBMCURmAn9Tzy72NjuQ 475902845
+   |   |   3) jivMeaesRnnNRxWk3Jx5gAVmIdZ08S0py5uf8iVRbqtyJj8sGyFbw3qdhvWoXcLqPqGyGsGe0KPVS7kXqDgu14PkG3Tkbu175cgGJHTsLbhRECIWVerCOscp 51138257
+   |   |   0) kZl8YajspelUm2SqVvfCV4Vh4VjcqtkDMHBZ5rFlQMfQbvP0snE5tb6fxGNWMeOPIJIIJpYgPlfbUouKecZlsntwac9CwtPr1T39yWF8qEFKIwBSxPPS5Uqu 375589280
+   |   |   1) l7bjbjaH7wYgFdwwPPdzC3NLnyqvyaKUWSnTQhCNkEUy2VEOsHo3PSmop1rNi5zN6ywd85CthRPVGEndzCqJkWGkr2A0kaGU79RcyH9gJfyipRVYErbh0lKX 1346112334
+   |   0) nwZEVgSw8ke7MbN9hUAbFU1QFqzuZv0Y4jsn3fZ4PiHudZOPl8EuoE97HLsDZfhaSGiMr66bHuesAu0BouWP5sq7L3Xxhi91nLNsmR7ZnDqaAKC7mgNXg9YV 1877797015
+   |   1) pxjywWf5WJZlq9GtrdnCN47zqmJq66hw9tlQzMXFuoxl9F2n6rykHHUSsYpZiv0YoNWL4XqUI1s1JxUuARfQVkn6Uvd8hPYY0od0ghRccTaIEH4B2HaVXc2l 1548801360
+   |   |   0) mHjnD9CqCVCiV3O3c9iLT9CQ36ts6hEBr6h8ncV42W9Ad5EoioxcAPp75T1OYZFkkD2P1xqhLyQVrJP9UHIiPnSKElwfpHlf49lm1YX7Y9J6AVEkjs9oYf5G 2033500055
+   |   |   1) myGMN9nWg6pNx9LzJaWhtxsvsxnJfipTnFRXkWTxCjGkmd5SinyZqLVkk8Bm3VIx6QQZCJUX37Oe2lxns7zCJiCUc8gHKPtYkurPS00uJkTQfsfcQAZqq7t2 11108756
+   |   |   2) nTTohGyVItmzJ80tnuQqaIo1lf78vdr9sBOrdPIbPMEicHiLjwQzoQY2Dzxqecc0Q67AcfEjYGDCmLoByW1LqFzylVJoYuqUIaFcycZbTaC2KIj6y6b9OtQO 392483577
+   |   |   0) ogBm3zJMPO4Z1KibwVSctkIwBoY6YZJSqkvsI9UGyRtfupLs9R5GX6SuD28hyfU7s6yLpZDahZK53LklBZhcbT00cXWRPvaMBPX3wEfgNbFm3Qrmb4YYDyOP 47277486
+   |   |   1) pHwGTWMdW76tUafSeBTw9358b44a4myUHegzbYciJ1VsZRe9XtcviKWcm9FbnOnF8ieRctRdn178RpSPSDoELDGHLQz82bVAYzcB6cOmJhKRZ4GmX29kkQDG 954185833
+   |   |   0) qknMfmgyIZEAsmnXoFRs7WfFryJbO482dUwYxbVm7gphknrOYB9nGSlajY1gjQDbXz54vJY2KrNZGN3bk35XZQdGZDGGTdeaX8jJGc52OIRtbQsbt1rrdCRy 390877354
+   |   |   1) raNDeOG1XJg7Pk6XGtrFjaqbncGoqUOrUUdiBp3le03hwcykWirqpfSFJlXbSKhfRSSjbfbtdoGQrAadjwjO96IyVfFsHljG2ONCtZoe4uvfN3jzy3VBERpT 1033120814
+   |   0) uSPQkidVzRI509m4e41Q6pUxKhlUmfFQBs088bTg68cbQnTY8cmIfD7UMTRawZA1Hys2hkzVTwQS7wMOgzhuM8NbV3499MDhYny1YzCzikEMQz4DLgLAg1SU 842928894
+   |   1) x25fyrbWUlgKBzJXBFZNw9nSsKdde6n51Ttc2gcflAWsiloBHwrhWZr9dV1KFz4bBT9ccWQC4zn4Eoaco6ljrQQjeKdl5knO1oF6bM5ZaqtakMFONxfnwbIp 1748536141
+   |   2) yWAqYGUymmSzOEfjAya7e0fdQYt1BpMa5cFXLOgOIdhQlawwYLDc4lWfSvenSpPrkI044DuJ3KFEJaPjMGBcVnp9RBhCb2CKPmsSuDooBgW34opRMl7ZIsXY 1344215852
+   |   |   0) sjwSGReAJIGqmhIbhxZM4EoGvsZLhazohqH3aBKug604VQrZeC1N2Bqb29EmvTOa7bXBC9XKSJMRyelDaVB2kHpPsxw8uftzdNnHNfx0M2NCop4xtgqRsRft 28365286
+   |   |   1) t7YN7It1SFJaz5N6HkpcSj1X30cUs9o7NOl5aPMhRQtsOqYQGjWGTWTlUE25c1N5IhTUphyG1VNNSV0rEJbUW6UX7ub1YXK4w1mslQ2GNfIYQcdhSQ2opFNP 587287603
+   |   |   2) tUDHgwZmkXRNsRItIgW9VLD59Gq93NE7HA1efR0pAUbl6CfSkgDg2eZUu6dd3w5hgO2WeFHEhZm3Kp3gjNz8365pck7Xg0jC3teFBYzYYX5inl0ok1UQzgCL 732511898
+   |   |   3) tq9gvV1bHisLNN1yqSviS70YPHaT9YZkNPa2voklcwySXN4C0AlfHDar8pptVmP9un9UkvXsb30uq2uRqJArlaIkZwRaIx9U2a8DGcFNnNdwXD8WlKzU249k 2011211066
+   |   |   0) uyyb0zlBL0zUcwdcSRvByYDuDmdhA6VKGtn83SpEuX2C1iYUkh3U2tXcTkfXkysGBwHukSKWbK4dvCWQ8CK2OXjhh6MBAEJDKouv36bv18EOx4aIaNRMWg1J 2116664927
+   |   |   1) vPgP8FvIQFzeuKsDc0JQUK2QWYN8RopRpobARXm9pJgvQ22avQFmaDvahWIskBOh10IheihWAZTlAd4bPTKLpWuyMY7fdRipi2GlOI9J2TYB40fuLx2ELrZQ 1705463549
+   |   |   2) w1YgodFjcQGRuP7haPkyeexOeycOBS3mxkU64D2cfWBnLg3SHo5IEfrtsvbNu9glvYSMRUP5UUDlZ15uB41HBS0MR881QbH9xhFwk5tEhusFJTxsKNjFlA7U 848670004
+   |   |   3) wWTiyhK1YJMqM0lCd1wfo2Si8p9YbieykUuXo42ambSV11eJKXCnpmoOy09eCLuHqxwM4RWhxYpBl8VksUdZY4xwWu7RNWqAUr1FzaLjF0dZKnyecrehMbiG 1788055907
+   |   |   0) xfAIOIrd0UviCaokhcxRWv9pcLmVTbGPFwZMsekPsNt1iq85TEu5mvLTeZ12dvMv3JXZgodZLRi6OYel8FSKq7KLaqMMFKIsMF0t0z53TTyskGnuAXK3dFH7 1132545697
+   |   |   1) y61o1PVcxVkrDf5wxTVtUiYrA4XG312HuGqFEHcULn5qY536VnEor12j4lClBQSHU1v2QJTIMr6NF3jrncDNW4BNCHuwbrovIPgaTLGeFIszmU7dWLZVJKf8 1190656480
+   |   |   0) ywB3BIxg5GaCqce2cQn4wi9SyEgcWlam8o5gAYco1BKS7tJCzdDHmCdmTdfJWXEmaHWYOyEQ7whlmQyrHfvCvM2ILFQRoaTlPOReVwWCwMZUb8tsfmqfO3cI 783250800
+   |   |   1) zTjm9ik0pU9ftvWTrwhvjjy8qaetbP9o8QuLCNiSQrpf239njSTeGa2jZvjcNs5Ackw6760R7ByCKCo8PDYzfQB0wJcPPn2TEQ0sx72IEwNJv1aYw1xiENbo 559861201
+./a.out : Task = 1 Result = 0 Elapsed = 0.04
+./a.out : Task = 2 Result = 729731 Elapsed = 0.22
+./a.out : Task = 3 Result = 729731 Elapsed = 0.31
+./a.out : Task = 4 Result = 729731 Elapsed = 0.04
+./a.out : Task = 5 Result = 6 Elapsed = 0.00
+./a.out : Task = 6 Result = 0 Elapsed = 0.03
+./a.out 2 0 5 test_1e6.txt
+tree has been reading 5.02s
+./a.out : Task = 1 Result = 84248 Elapsed = 0.05
+./a.out : Task = 2 Result = 1388846 Elapsed = 0.22
+./a.out : Task = 3 Result = 4631420 Elapsed = 0.32
+./a.out : Task = 4 Result = 1657510 Elapsed = 0.05
+./a.out : Task = 5 Result = 1036 Elapsed = 0.00
+./a.out : Task = 6 Result = 0 Elapsed = 0.04
+./a.out 2 0 10 test_1e6.txt
+tree has been reading 5.03s
+./a.out : Task = 1 Result = 0 Elapsed = 0.05
+./a.out : Task = 2 Result = 1657510 Elapsed = 0.25
+./a.out : Task = 3 Result = 9630874 Elapsed = 0.34
+./a.out : Task = 4 Result = 1760167 Elapsed = 0.05
+./a.out : Task = 5 Result = 729731 Elapsed = 0.02
+./a.out : Task = 6 Result = 0 Elapsed = 0.03
+./a.out 2 0 100 test_1e6.txt
+tree has been reading 4.98s
+./a.out : Task = 1 Result = 0 Elapsed = 0.05
+./a.out : Task = 2 Result = 3569325 Elapsed = 0.22
+./a.out : Task = 3 Result = 10630874 Elapsed = 0.33
+./a.out : Task = 4 Result = 3633583 Elapsed = 0.06
+./a.out : Task = 5 Result = 0 Elapsed = 0.04
+./a.out : Task = 6 Result = 0 Elapsed = 0.03
+./a.out 2 0 1000 test_1e6.txt
+tree has been reading 4.93s
+./a.out : Task = 1 Result = 0 Elapsed = 0.05
+./a.out : Task = 2 Result = 5205584 Elapsed = 0.22
+./a.out : Task = 3 Result = 10630874 Elapsed = 0.33
+./a.out : Task = 4 Result = 5586510 Elapsed = 0.09
+./a.out : Task = 5 Result = 0 Elapsed = 0.03
+./a.out : Task = 6 Result = 0 Elapsed = 0.03
+./a.out 2 0 10000 test_1e6.txt
+tree has been reading 5.10s
+./a.out : Task = 1 Result = 0 Elapsed = 0.05
+./a.out : Task = 2 Result = 6804797 Elapsed = 0.22
+./a.out : Task = 3 Result = 10630874 Elapsed = 0.33
+./a.out : Task = 4 Result = 7288245 Elapsed = 0.15
+./a.out : Task = 5 Result = 0 Elapsed = 0.04
+./a.out : Task = 6 Result = 0 Elapsed = 0.03
+./a.out 2 0 100000 test_1e6.txt
+tree has been reading 5.15s
+./a.out : Task = 1 Result = 0 Elapsed = 0.05
+./a.out : Task = 2 Result = 8630875 Elapsed = 0.22
+./a.out : Task = 3 Result = 10630874 Elapsed = 0.32
+./a.out : Task = 4 Result = 8630875 Elapsed = 0.22
+./a.out : Task = 5 Result = 0 Elapsed = 0.03
+./a.out : Task = 6 Result = 0 Elapsed = 0.03
+./a.out 2 0 1000000 test_1e6.txt
+tree has been reading 5.08s
+./a.out : Task = 1 Result = 0 Elapsed = 0.04
+./a.out : Task = 2 Result = 10630874 Elapsed = 0.23
+./a.out : Task = 3 Result = 10630874 Elapsed = 0.32
+./a.out : Task = 4 Result = 10630874 Elapsed = 0.29
+./a.out : Task = 5 Result = 0 Elapsed = 0.04
+./a.out : Task = 6 Result = 0 Elapsed = 0.03
+echo "4---------------------------4"
+4---------------------------4
+./a.out 4 2 1 test_1e6.txt
+tree has been reading 4.45s
+0) TNFxfXpBndmVhEb6wDAq4AVoCOlf9KL6PenEvtS7VMTrPh8StwTyQPiPXX1ls9fARqXkJ7BBnN1ltWOa9KjbLWqTH0YcUSbXZrlAwyWnkRW56Hq4idARgiZ8 1428224502
+   0) 5aqjQCLcLhvLg4poDAWKzUkTGNCmqgrmd079HC8XZrvNsDVd2V3zE1CvDQmOiW1x5mCkxd0Ik1GK2HJURwPKLvlNzWYjqz4a7P2WRFywVZKmaFyx0LXgl9Ks 1029936602
+   1) 8zkgiBuhwepQtx41PE277MKInzrGNk1vntswTx5Kf5SAIC2pKvLadJuphxAcuMcgbLWCxKvq7wHBQr8iPgQW5YZFKrWDoSgycxKVULN59PDm791RRnJ5I6Nk 902900958
+...
+   ...
+   0) YXRv9VjnJUyOTMUiWOPy6qEp9t8j7PoNBIgPDARyOUDS3Ftztx8wMvhJAC9ewmH54j3iIQfuMdUiGtwAsxuzw9zmJIzFMOJsuKEaHmE9f8MG8RW9Vb4KZUvB 1463195713
+   1) d3tZHnatqhywwsmzdK3ChPcmoyPXScuW5FjyO63qmY9eGSqwIMXKsWYkh1objjmi7V9AWIEqfOPxYo39bjQkau3j8vWwRroOFM3IHfhET547wLVNnHWp8vzJ 748584314
+...
+   ...
+./a.out : Task = 1 Result = 0 Elapsed = 0.03
+./a.out : Task = 2 Result = 845048 Elapsed = 0.10
+./a.out : Task = 3 Result = 845048 Elapsed = 0.18
+./a.out : Task = 4 Result = 845048 Elapsed = 0.03
+./a.out : Task = 5 Result = 12 Elapsed = 0.00
+./a.out : Task = 6 Result = 0 Elapsed = 0.02
+./a.out 4 0 25 test_1e6.txt
+tree has been reading 4.35s
+./a.out : Task = 1 Result = 0 Elapsed = 0.03
+./a.out : Task = 2 Result = 1821268 Elapsed = 0.10
+./a.out : Task = 3 Result = 7816868 Elapsed = 0.18
+./a.out : Task = 4 Result = 1822396 Elapsed = 0.03
+./a.out : Task = 5 Result = 0 Elapsed = 0.02
+./a.out : Task = 6 Result = 0 Elapsed = 0.02
+./a.out 4 0 50 test_1e6.txt
+tree has been reading 4.33s
+./a.out : Task = 1 Result = 0 Elapsed = 0.03
+./a.out : Task = 2 Result = 2322511 Elapsed = 0.11
+./a.out : Task = 3 Result = 7816868 Elapsed = 0.18
+./a.out : Task = 4 Result = 2549058 Elapsed = 0.03
+./a.out : Task = 5 Result = 0 Elapsed = 0.03
+./a.out : Task = 6 Result = 0 Elapsed = 0.02
+./a.out 4 0 9 test_1e6.txt
+tree has been reading 4.43s
+./a.out : Task = 1 Result = 26528 Elapsed = 0.03
+./a.out : Task = 2 Result = 1663391 Elapsed = 0.10
+./a.out : Task = 3 Result = 7816868 Elapsed = 0.18
+./a.out : Task = 4 Result = 1821268 Elapsed = 0.03
+./a.out : Task = 5 Result = 0 Elapsed = 0.02
+./a.out : Task = 6 Result = 0 Elapsed = 0.02
+./a.out 4 0 7 test_1e6.txt
+tree has been reading 4.33s
+./a.out : Task = 1 Result = 29868 Elapsed = 0.02
+./a.out : Task = 2 Result = 1296159 Elapsed = 0.11
+./a.out : Task = 3 Result = 6816868 Elapsed = 0.18
+./a.out : Task = 4 Result = 1485523 Elapsed = 0.03
+./a.out : Task = 5 Result = 845048 Elapsed = 0.01
+./a.out : Task = 6 Result = 0 Elapsed = 0.02
+./a.out 4 0 8 test_1e6.txt
+tree has been reading 4.37s
+./a.out : Task = 1 Result = 28910 Elapsed = 0.03
+./a.out : Task = 2 Result = 1485523 Elapsed = 0.11
+./a.out : Task = 3 Result = 7816868 Elapsed = 0.18
+./a.out : Task = 4 Result = 1663391 Elapsed = 0.03
+./a.out : Task = 5 Result = 0 Elapsed = 0.02
+./a.out : Task = 6 Result = 6365524 Elapsed = 0.01
+echo "20---------------------------20"
+20---------------------------20
+./a.out 20 1 1 test_1e6.txt
+tree has been reading 3.90s
+0) 1tuIGAenfKFJBUswYOQuICXhZaQfJn5gGIyzO1OTHfJg1cQz0CwxbZ4QxoU30D7cu4rvZJcqZcRjLuNK2F8jb5rRCNFIZoTFPE4iwraQiLEmQ4Gx0aDujB52 1594731039
+...
+...
+./a.out : Task = 1 Result = 0 Elapsed = 0.01
+./a.out : Task = 2 Result = 965128 Elapsed = 0.03
+./a.out : Task = 3 Result = 965128 Elapsed = 0.04
+./a.out : Task = 4 Result = 965128 Elapsed = 0.01
+./a.out : Task = 5 Result = 1081 Elapsed = 0.00
+./a.out : Task = 6 Result = 0 Elapsed = 0.01
+./a.out 20 0 46 test_1e6.txt
+tree has been reading 3.97s
+./a.out : Task = 1 Result = 0 Elapsed = 0.01
+./a.out : Task = 2 Result = 1964014 Elapsed = 0.03
+./a.out : Task = 3 Result = 3963981 Elapsed = 0.04
+./a.out : Task = 4 Result = 1964014 Elapsed = 0.01
+./a.out : Task = 5 Result = 0 Elapsed = 0.01
+./a.out : Task = 6 Result = 0 Elapsed = 0.01
+./a.out 20 0 17 test_1e6.txt
+tree has been reading 3.98s
+./a.out : Task = 1 Result = 0 Elapsed = 0.01
+./a.out : Task = 2 Result = 965128 Elapsed = 0.02
+./a.out : Task = 3 Result = 3963981 Elapsed = 0.03
+./a.out : Task = 4 Result = 965128 Elapsed = 0.01
+./a.out : Task = 5 Result = 0 Elapsed = 0.01
+./a.out : Task = 6 Result = 0 Elapsed = 0.01
+./a.out 20 0 4 test_1e6.txt
+tree has been reading 3.87s
+./a.out : Task = 1 Result = 0 Elapsed = 0.01
+./a.out : Task = 2 Result = 965128 Elapsed = 0.02
+./a.out : Task = 3 Result = 3963981 Elapsed = 0.03
+./a.out : Task = 4 Result = 965128 Elapsed = 0.01
+./a.out : Task = 5 Result = 0 Elapsed = 0.01
+./a.out : Task = 6 Result = 4353748 Elapsed = 0.00
+echo "100-------------------------100"
+100-------------------------100
+./a.out 100 1 1 test_1e6.txt
+tree has been reading 4.41s
+0) 11mR4Kn8pQd8raEtqDOriqgbp0Wf0mqrXLo49GetF62pdpMdczeRCGz8Pitbpv1WtTPtsCy9MnkQATYEs1x7vMf3p47P2ZIIdYMkkrDBsDP2bkf0RWFnVWQt 841229409
+...
+...
+./a.out : Task = 1 Result = 0 Elapsed = 0.00
+./a.out : Task = 2 Result = 992652 Elapsed = 0.01
+./a.out : Task = 3 Result = 992652 Elapsed = 0.02
+./a.out : Task = 4 Result = 992652 Elapsed = 0.00
+./a.out : Task = 5 Result = 7285 Elapsed = 0.00
+./a.out : Task = 6 Result = 0 Elapsed = 0.00
+./a.out 100 0 5 test_1e6.txt
+tree has been reading 4.59s
+./a.out : Task = 1 Result = 0 Elapsed = 0.00
+./a.out : Task = 2 Result = 992652 Elapsed = 0.01
+./a.out : Task = 3 Result = 2992589 Elapsed = 0.02
+./a.out : Task = 4 Result = 992652 Elapsed = 0.01
+./a.out : Task = 5 Result = 0 Elapsed = 0.00
+./a.out : Task = 6 Result = 0 Elapsed = 0.00
+./a.out 100 0 0 test_1e6.txt
+tree has been reading 4.46s
+./a.out : Task = 1 Result = 992652 Elapsed = 0.00
+./a.out : Task = 2 Result = 0 Elapsed = 0.01
+./a.out : Task = 3 Result = 0 Elapsed = 0.01
+./a.out : Task = 4 Result = 0 Elapsed = 0.00
+./a.out : Task = 5 Result = 63 Elapsed = 0.00
+./a.out : Task = 6 Result = 0 Elapsed = 0.00
+./a.out 100 0 3 test_1e6.txt
+tree has been reading 4.53s
+./a.out : Task = 1 Result = 0 Elapsed = 0.00
+./a.out : Task = 2 Result = 992652 Elapsed = 0.01
+./a.out : Task = 3 Result = 2992589 Elapsed = 0.02
+./a.out : Task = 4 Result = 992652 Elapsed = 0.00
+./a.out : Task = 5 Result = 0 Elapsed = 0.00
+./a.out : Task = 6 Result = 2297697 Elapsed = 0.00
+./a.out 1000 0 1 test_1e6.txt
+tree has been reading 11.17s
+./a.out : Task = 1 Result = 0 Elapsed = 0.00
+./a.out : Task = 2 Result = 999321 Elapsed = 0.00
+./a.out : Task = 3 Result = 999321 Elapsed = 0.01
+./a.out : Task = 4 Result = 999321 Elapsed = 0.00
+./a.out : Task = 5 Result = 999321 Elapsed = 0.00
+./a.out : Task = 6 Result = 0 Elapsed = 0.00
+./a.out 1000 0 0 test_1e6.txt
+tree has been reading 11.19s
+./a.out : Task = 1 Result = 999321 Elapsed = 0.00
+./a.out : Task = 2 Result = 0 Elapsed = 0.00
+./a.out : Task = 3 Result = 0 Elapsed = 0.01
+./a.out : Task = 4 Result = 0 Elapsed = 0.00
+./a.out : Task = 5 Result = 679 Elapsed = 0.00
+./a.out : Task = 6 Result = 0 Elapsed = 0.00
+./a.out 1000 0 2 test_1e6.txt
+tree has been reading 10.98s
+./a.out : Task = 1 Result = 0 Elapsed = 0.00
+./a.out : Task = 2 Result = 999321 Elapsed = 0.00
+./a.out : Task = 3 Result = 1999321 Elapsed = 0.01
+./a.out : Task = 4 Result = 999321 Elapsed = 0.00
+./a.out : Task = 5 Result = 0 Elapsed = 0.00
+./a.out : Task = 6 Result = 1461041 Elapsed = 0.00
+

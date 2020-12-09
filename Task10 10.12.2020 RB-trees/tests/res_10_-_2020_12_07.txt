@@ -1,0 +1,312 @@
+HW 2020.12.10
+
+==============test_1e2.txt==============
+
+./a.out 5 0 test_1e2.txt 
+dsknGtBt8JGk22KAZVU6MeEukJNKCkAo4YDBwuvk8vSR26AcdzneD3YtLnYYKLBbx0wtAyxgXhVbeIuLDVVvRHvd5xpxsMJy3oV7KgMGQDRdWAP06caGZuIa 1182256916
+  F345u6fBv1E73JFoTHfvtPblUEJYWzurt5DxfeDeJ1XgLKeKn1w0KeMQm6e2HRoYKxRPmw1uMe7DSth4DrW8GJSebYBbnMpD3c59CRo0FT6uso0fZ8hFxXE6 1993334328
+    8YDXOYJ8O1t7vXkRMr6HWQB4xzNFns00iV7v1cZnILh5ZiX6JfrjsAWe4hEnR5k0upEAYOxddHgrjpqBHngNxDneLwQIqxFA3LzEmJACgiYO69jJajYwg0Xb 498010288
+      3EpZZf21MfnVtzpl6uwtXXdxofgAXM5IAZVXyYJDqQxX3aPK1bRMXREiIpIXeNkTpgd4icV4wLJwZn3asov2JPqbRIakMgSEiyiI7fKVnrP2cZJtgjhrZBXM 1551913866
+        0hkthISy52X3GF6bhzNCbSHTfWHheqgCh7qSNdW3KVN77KHLCF5dBOGoiVFiIMW1gEeFTrNuHZYU05no7wAD58HZStB2SNtfw8VmRyuK6Abj9WcniK54hkmM 893320588
+        5ve3ccGgsA4reGN9kb9yZMTrrZ8OPrwv2eG4kUDWhqjFk8QvXDXzVr41C4B6RJXWHINX0u5MO1dQHCzQl9Nh2jpHcDf6Zhk0sB4vOKkKv4MqTWFNlGOURPX1 1268827829
+      B9SEugppitTYzUUO7zjFrYgooJ6xydv0m5Pph5WG1kMt3u3bSZRlBMhhgDcxhr0IYeCcnVXyofS2CwdtB5Jy6xsggdVRvcJlX7MBiAwRbSMmeT4EG67TEir5 1128529862
+        9eVk7C632x2WcYwgJRLoJZhWhqkidPwSEZNJxwRJKpbj8PejOtdSmHdxd4iyjW0Rp1INlk35jyqgJmqSOdGTSX7HdNVgiFPV8J5ssDi5BqmF4cvCvyCtbpZr 263798881
+        EmMGHPEcGH5gKED6rUQB43KuMAKdW8WXrZbSm4R0R7vthmOKXtn6eyQMmh6IdLpnmpzZevwPxDzhMHxwetjH0kZGfP3K2OYnelxEstgVFTsg4MbanSLP6z3I 1671227635
+    MP3lNJEBATSbkaYvSmmYR0uSqZrSwaKq9IWMbvcOYdMRSlaaEkIVAGVnUczY1KRGXNnq8ynfWbYTbbfzPFuiVTj1wmFdDPYGHA2hYD2q6lBdsEg9bZT4J1yh 204855490
+      KR3qg5FFPSVzQqJfF9t2eBUNvY81aZnxhoT3hmBFPMnhO9DwcWFitaIdZHW1Uk4B0fV2FUxJZietmNNzjG81iB2yYRO5mLMdrtl5aM6atdDQjjgulMT1oaIX 1628570862
+        FjG1bYFEynV54dE1lfXj3F1i0VBEeshVwKmLybKna18clbl21PKWbifXRkl8fG5Y2mh2SXJ1vBMM0f7hBSI2ETipO8fUVf8J8AUKxXSOAx8rRCNx8Z7lhgAu 787762263
+        KbEqchqLpigXJX5fLd2qgAqSDRO7aKobi33v2yqry5bopemj6fFycdRAlxDoLKN8UoJBrYUmv5HMBLRvgHwurP1GJS6zxXE9weCS4dLnjltOrxo6oYHUjWk0 1445458390
+      VovdHCEMiEg2U7zgwRP4uPhZDaGX7ovIQij6PcKKRcRm60kttyc34eRcTQEdzxyZPsLQPZNEpf65CvZYsDxyDLmYdrYnlFgO6e9jr4ZssgaOwJ0hhenkIhDD 1174297436
+        QquaghLBDImW3lGwBzyUuwMONiVopeZH0Ji6d03CnLmS2kkvOounh2aXz2kkFbWfdTzMectf60hZO5VO7ysdPjGRpezWYcBG8izDrGiF5zHjj4P0GqJG0T5A 109352279
+        aMdamdfcrH6pJvJMbYBO9BpOOzS7yjISrNV6PohBx2duxVzNaB6lCclHTrFHhmZzOmCHjwj69hc6SiWzWGeam13zWc4retHrZmwDuDOh4nB91nDoo2buT3jx 1010639420
+  lrA4KeqDZAFMysJp2uW5m4MTLMIr6bccgOjzzR171QzuJuMwQosMMPgXEqA6L8SX82EzvV2M7N38pe2lrnlPIrbgQsMHmS73qDfB1lePTpRqjUKv69o9qIFt 96836827
+    ifeTefsMrM2GjVUCYpLj0d9mn54GpDqBhfMyttXxWDLF3TYOKVPovvU7kHSLpFZ8oldSlGyupPZ0X3AAewp4JYazmD9wT10YPB4Xsorx2YvwyloMSpQ5bYEh 559676780
+      fsETD1MvwCM50qCaErB1MBk9hhqIUt84YdwoJJTvmBiVHDolORJQQizSqUfDVukanUsO9zh72TF818gIM1rbdqCMshWGkRNBVv4AWvBN0Ga7ZdQC8MSBV8MH 1780244099
+        eiZu3B5IcZErYeY1wXuJKQMYzJZK9V3xG2iV339PcPcbQkdfDFxPorpAZ0LWwuJ0NMPY9bbVe834sag47jJiEnSPiLTmAdTY4g1KZmbOtloY3ICLT0xreDTY 578000531
+        iB0z3HHe1SSvhQZrfyiTkFeZiaTXJkWyOLGSjxRgOQxGaY3m22DDiXnlRUIgdJUDkh9pbOv6yyEKqqIFscZQpp5lxYpaBhdG2bEbRoJ5suNK5QHBEzgxowGS 1853582365
+      kVwbmid6hvlJVSKU8Ye9HSbhQIy5rITmfRqzEErt1EAvNfZgg62KK6eciUMjiHyUSniL8APQJIMlJdIVAGlphS2xFnttpdcnrbyxnCnABhQHSWMqH2hETpEu 747555581
+        k4IC7djzj27ZtWLvAHhOaUsahBRf4rn9UWrP25TFCPMNz85bRuMMqWrV4fZXL0MDOPgNbxzhpkN8pjs2eNgXnGEWTVDTbgVzRZvFjeuo1WKuPPddECwbiW9C 1357378381
+        l5fqsz78OiMWuBQPqJay2NozeORAinp0eAe18yFxuoqFm5NGm4jzpCjWidRE7o6qE4DUVCQ9Z2D5U8LrmLaKiL97MgjNLUaNEGcN0RmNdYnV41yxF1bxhaxq 1788475545
+    uMFArai5rEZZJnBdRLAI5XKVwbeQ9HNsnMZINvr4YPCqt3IUhmajiEJqgS7B375f3H2mbrmSXYd5Z1NH7Qg86EdsErsoUROBceJ5YjD2qfbprRMwzjM6rV5G 1496072810
+      nceAq8yRfLVeAGbdnSwn5CjgIVJTAgZg42oEGKlgnexhD8xyz4DE5OWxikpOqixIIFly6MzDjMK2Y3CZPSfpmfk3x2R0mNfVAnLxsGBh3W3nVs1jPHnFjSAc 2016682960
+        mfjyhMntDHQHUQyaV7nScIMmNab5QbDlx8GcMPpaABPPN3YEybAKrsxHSgNol4EGVAqOdTXDVOM00YeNV8olUUCDY0fyq8olsYBi3EqfqDTqnlPPxBOixV6l 359309517
+        rVpiIdNiKlpOIpTeqzgatsMLilKOB53lRkmknQIzGqFDAJOlGiJMn196RvQ88ifOUYNJLdDNYkXeXn1yB244QYXtatdHMTwKXlsN4AFC41UOwjM5snQEVI9m 646428782
+      wnk9m95jEraOrUMj2nt4ivRp0VSPjiusJ7RWY0CTzkBmX9RIc9ER2oPl8MAUEcvsHk9366dNbBGrcZFUKD419qMYKNeMrItDA4jAXo9645tu7eARYiAnXysm 732925722
+        vpUOYUSx48Sa8M1en5Uo6ljJ9dVkIUW8b3sbGgFTqOuKb3P1aPhA92EC5rHoStSCkWBE5fwUfAXUQ6NldlGf2fqvmUYNMaXz2BWJkVhwTxg7U18T1vUThqGu 989765216
+        yGeXmu2dAMJjAh5KFNNSrBoLqqukUohRSAVSUEQC3eGyNHBj7t5sz16nvP3vKoL8flKPzwfqltrzmYMfUOiKn7biEjDzgq5IUurw2irHWmW90J9edHHr9FiT 207420793
+
+./a.out : Task = 1 Result = 0 Elapsed = 0.00
+./a.out : Task = 2 Result = 0 Elapsed = 0.00
+./a.out : Task = 3 Result = 0 Elapsed = 0.00
+./a.out : Task = 4 Result = 1 Elapsed = 0.00
+./a.out : Task = 5 Result = 0 Elapsed = 0.00
+
+./a.out 0 1 test_1e2.txt 
+./a.out : Task = 1 Result = 44 Elapsed = 0.00
+./a.out : Task = 2 Result = 44 Elapsed = 0.00
+./a.out : Task = 3 Result = 70 Elapsed = 0.00
+./a.out : Task = 4 Result = 2 Elapsed = 0.00
+./a.out : Task = 5 Result = 0 Elapsed = 0.00
+
+./a.out 0 3 test_1e2.txt 
+./a.out : Task = 1 Result = 103 Elapsed = 0.00
+./a.out : Task = 2 Result = 164 Elapsed = 0.00
+./a.out : Task = 3 Result = 195 Elapsed = 0.00
+./a.out : Task = 4 Result = 8 Elapsed = 0.00
+./a.out : Task = 5 Result = 0 Elapsed = 0.00
+
+./a.out 0 5 test_1e2.txt 
+./a.out : Task = 1 Result = 145 Elapsed = 0.00
+./a.out : Task = 2 Result = 336 Elapsed = 0.00
+./a.out : Task = 3 Result = 277 Elapsed = 0.00
+./a.out : Task = 4 Result = 27 Elapsed = 0.00
+./a.out : Task = 5 Result = 5 Elapsed = 0.00
+
+./a.out 0 6 test_1e2.txt 
+./a.out : Task = 1 Result = 163 Elapsed = 0.00
+./a.out : Task = 2 Result = 434 Elapsed = 0.00
+./a.out : Task = 3 Result = 295 Elapsed = 0.00
+./a.out : Task = 4 Result = 25 Elapsed = 0.00
+./a.out : Task = 5 Result = 72 Elapsed = 0.00
+
+./a.out 0 10 test_1e2.txt 
+./a.out : Task = 1 Result = 229 Elapsed = 0.00
+./a.out : Task = 2 Result = 602 Elapsed = 0.00
+./a.out : Task = 3 Result = 367 Elapsed = 0.00
+./a.out : Task = 4 Result = 0 Elapsed = 0.00
+./a.out : Task = 5 Result = 0 Elapsed = 0.00
+
+./a.out 0 8 test_1e2.txt 
+./a.out : Task = 1 Result = 201 Elapsed = 0.00
+./a.out : Task = 2 Result = 602 Elapsed = 0.00
+./a.out : Task = 3 Result = 313 Elapsed = 0.00
+./a.out : Task = 4 Result = 0 Elapsed = 0.00
+./a.out : Task = 5 Result = 136 Elapsed = 0.00
+
+
+==============test_1e4.txt==============
+
+./a.out 5 0 test_1e4.txt 
+O5X87qZbg7NNuUmeeWVh0B4ZVe1qIbefCElqxXyKuHWuzmpmueYVVfNmGi73KxyPziFSoRHHvjmLQ7CopW5oVWhZfX6DbsBqiTmZNlienSXkjL2tyL28HzPd 1853227173
+  B49hasN2t4bsWbPQO3Zex5QPfqzWgmaoQdfSJwD30J5XXsPawuEUY4eOuOMnKbXBzkUB3nSIeRl29sQIQTgsbqqBAozs1ZbmBlxesR1aALd8ZaxiBJ9tKpAh 1532594146
+    7DXg1CrOviLTNiRYmHKyGkW4ITshMidS9gLsxo0Ycp7sq028oD3FAtdsIZ9ePrGzSzj3ceyZo86YHRfjCSAEiTzHTz9CvHJTfIw0GhGYlnN34h2LQWY5fCjR 1605980232
+      2oglw2TEMGwqrXJlJTpdPitgCLS2UVdEjrQSKgxfF7afhXEur0G4V5eh1qoO9v76koJEngVL12QbOTcEjwfb3Nu7acwIkuSmRiVooymFcJvrsYD8xOAmjRY1 1213809901
+        0w8hzLHKfdfu5F5tp6LyacjpQIPIu55WL5hYzoyo5XNGKXML4aEKYosjJglqjYn8odDQxp6YT3eiKBcTl7dh6ImekNM63pJdg83ffC5DjQytP6HaStzX49lc 1604919884
+        4muUj2mbAsHIbdwrAxhEjrkb1bWLnCCtuZwHNqIaNlkBCgyl6DesWJndPxX6tH16mQlOV18qaYTYZZ7RfxbgZgtIEawdi1GWFQIlZPcvAIwh2LD1wN25lmGl 436725301
+      8nBXuZS37NdXcdudu5ZJfCAz7dJcwfVt0XVH9COBLvDLVmOvLqPJlV7Y1JNnyK1RAJaCCYfMv0W5sCNY7IuxU2autClKSySm6vA7yi9c3yxtlULl1PKpxw0p 362654805
+        7rZiDutd1b56wjjefw5y71j9ZqGP0Y0dnJe5PbyQbUoLD6vkJslerHKQcg2xDhTkHCB1XCLxd5Kq29jqZ36aVfAyZ0HZNYH7ydNfAXcHN27nXD0tXmqtxhH4 1884509231
+        A1B7XPq676kuzC1BdY0McGTxcrApPpg3UHBfS1D8gfHdnKw1MbOCNLW2Q65wWLJxy1LEgU5bo6sJ8g1AhzhwAYXBbCyzjMpCgBu5r4VVxFDXPbwGVRiGKtY9 1083781878
+    H2noHIhgXMNQGt8CXxcVWErcBPG2NrOQE8L4WD2wPbmljF28mbMZv0bgpZJZvul7A3gnextqzWKl5gvOatom4jUDUCQUc8BEXu9oE9rrDXEVjULsg1Asv5fD 227176177
+      EFoadzWQdLi6DVLSlj1iCuNS6yFwqVfWmuBUF6UovamP3zkcX8iVm4voIo3VtDHFRtjg62hhx4YjWyQQHnEoCnEwvg6h0R38gc4K5L1RQv7wooSfI3FlSCE4 975374463
+        Cu0mRekOOpqbAkLlploK73NBLyPf8Z6JLtyNIOFosON7mpy10YGa7nN2gnVDOjBLNTJiamzxghSJKT6LjbMpcv4mraAG8GXZgsdXR0PP1KBFfaIOq59qpCgR 884233859
+        FrHNaeGnPsSoIm14AQqd4MpdW03WqaFmGOyygji2tpRCuHXaLDKR1VZngN14yYqiDI21oiNJESXfLwLBAzq19gOVvATqDhu02NgRkUM8RbCMTa1XjeX4UbNz 1154842525
+      LE4UJsUqFXhMEBVbG8n5bmAaiHWYA4FaxWlHU9xlKsyQM0WDMXtThgRTk6CUKAAIHlOia8ghYF06yOJrFmrkRks4mQnbW3byrMuWeERmYlnRmjgPfmYiXFGc 630521296
+        JDS6CV29JdTTe8o5yakX5yBWvv5Rq9wPTUfKzAtY2SUtxQyuo2l4W6EbVMg0nFDxcg12EkPnmx9yOkjhEK8J22gTLp48KiuWMTCjJScTKonDaphk2V4SCgzQ 1005796163
+        MqbUoAzFE2mM4DS0POcc764KnxPXpEnjCEBPA6GBvwVjOAasIb2qObg4Xa3PH4guVtJt48coHiiJX99cGc7E60kzOb5mRyGvQMKU6NDEXPpWoBcDRp4UNuRR 548797099
+  khf1EsJYFgepAlFSNs5Ol2qiSUL55457k3v7lUTqMfXDQ50jmGldWNldNh0G6lrgUVyzgivv08hFtAODnHk5N9w9LQLY87qvzUPP0fTntk1qLHqVeomaU2D2 1758193915
+    ZHwjef2cfgHO78mTzt0HPqUEKsCJo3vN3ceziFwFKrXe4IYNkHWAD0lWgiSfiXMBaX5B0EvVtHEGwSBoQQhURbppvVDGLD60ro5sunksqoEKl2OsQyk0TLR1 79554331
+      Uh8BLaYuuN9OHjX5MCew8V3hTa32e8IPYzf1dDqnolVmqlAuZ9vWjq3b648POtqgdeUwWgVKC9CVd4jIB84HH2mLgs8w0GuFj90EGNlEcFWikWw3agEyctaH 355328370
+        R9CfbXL0addO4cwZYteSUPpqdm1cmenOAOmkn8fGB0r8yX72NzwpVuOO92j8s7P2kLoRZGxNC015MP9sIs3b9O4fG7gcwyt5oFEdCQgKDzMtgDWyv2WSy3Gv 1441361499
+        X3AAe0ULetyUe5MX3lCHCExvV4KAwSS4Xs0Sr28SA6HBX6kp0opAzNSKkr3XEok8NZr6fZiocI8xUR2ksvIat2GO79B4FG8pbiUTp5Bx8VZylR68XuSk5qoB 1234396299
+      f3P1P7FgTefhJruAmMdghQcuFWivnz6ZhpePPKfT5BxpdlB9I1S2h1hvTReMSth1ytPmeNnU4ug3W7Zp8gFaSjDlAgClWqMg99wRbPB0gOKNypMZ0DRe1par 811851439
+        cgAkNftr2PSLm5p7PW9QEa98EnUkOF0qbMzhLqRMifcbSWKez7XFmRdZzXUg9mbGVQyK6WTRIjeZOr0iTWLfWDEUfFSu1tmGjT4qemStXlrdeOWQTlOXNzAT 1276168853
+        hvHyZiziC6aCiOikHw6bqKeCrYgLIjGKcJLe4P1lA02ZdfSCSArOen2ImHu1pB8ETfLjI1JGyU0Tt4uIaEYj3UqNdBAFOzhbyhV7Sy9YZpEmo2mwpLzvcxeB 680827260
+    sNw4PgpYcE0muWK8039g9OINBxPn8fb5G2lnYi8tf3KMlfGbT4x0292ybjCpHYPBIVHzutEGkgHcF7GA137qGZMxKwUcc5rePfTjJaGLsBMwBdOuvgEnLpv7 1254039504
+      pIPpuwWdsRFnLKvaEeB41YQhxhjRbgoiNWHaAUNnTdtmi5ZdC3k5UP23B9hPGNn2d3pxLWi7xgPHoOI6LLGygVv4PHtIMYFLX86u246xFtlyPr8cZIse9E4s 37531154
+        ncCfo5wVkkydfhLvMwrFwQ3AKBaf1FeSM2ui1Hyk6JNlA5yHnMj0s7X1q3PpXPZTuKEomegvlbaiZ2wKPQSFd7aJzkzp7HAFC59zINHnE8RyL2kqeekVWqiM 1754229056
+        qWnEBEC0qmlbIM7TzISPCORstR2lFMNCfgVdbRlwuMPlKTlWfTApRrXJ8jcNg4fqFh2SOyCCFNmxCVQVx1NodJvq0QdSLm6sxn8hLqouCiv6fwW0zGdZBeFv 340668164
+      wwR0QGuxc9MBemZfWweZ0S06dScCVY51XP9mR3CE4WleHywdP0lfVRZzTvVZ4o7cnyHRVFARgFWa0ZqIp1sEQP6ikyrgbhwEPU5Xfnm33wmvtofBJostLkay 612875682
+        unRPeWIVcFghFpIRlrZpAuePCf3Yx6SpakhkOTglxNZlhxPC93YPHx3whqKEg4U2UVwGv6ufc70kVHjzNtKM0zyYP3vkvjdMy49WrpVqdq331ENk7wL0yRSk 1890653144
+        yrtLg3VEdFzdLsIhQHfZMwGbQRX3loUJHGUZifMSoIQ3kjdsmyAPOnmLY64OG3EgpvToeCdTNYEhvxA0k4lfpHRK8jy25CUj2Ef3jC5nJoTXmjtuUdqfEuEQ 647485995
+
+./a.out : Task = 1 Result = 0 Elapsed = 0.00
+./a.out : Task = 2 Result = 0 Elapsed = 0.00
+./a.out : Task = 3 Result = 0 Elapsed = 0.00
+./a.out : Task = 4 Result = 1 Elapsed = 0.00
+./a.out : Task = 5 Result = 0 Elapsed = 0.00
+
+./a.out 0 1 test_1e4.txt 
+./a.out : Task = 1 Result = 4277 Elapsed = 0.00
+./a.out : Task = 2 Result = 4277 Elapsed = 0.00
+./a.out : Task = 3 Result = 7171 Elapsed = 0.00
+./a.out : Task = 4 Result = 2 Elapsed = 0.00
+./a.out : Task = 5 Result = 0 Elapsed = 0.00
+
+./a.out 0 4 test_1e4.txt 
+./a.out : Task = 1 Result = 12195 Elapsed = 0.00
+./a.out : Task = 2 Result = 23971 Elapsed = 0.00
+./a.out : Task = 3 Result = 23965 Elapsed = 0.00
+./a.out : Task = 4 Result = 16 Elapsed = 0.00
+./a.out : Task = 5 Result = 0 Elapsed = 0.00
+
+./a.out 0 7 test_1e4.txt 
+./a.out : Task = 1 Result = 18373 Elapsed = 0.00
+./a.out : Task = 2 Result = 48232 Elapsed = 0.00
+./a.out : Task = 3 Result = 31240 Elapsed = 0.00
+./a.out : Task = 4 Result = 128 Elapsed = 0.00
+./a.out : Task = 5 Result = 0 Elapsed = 0.00
+
+./a.out 0 10 test_1e4.txt 
+./a.out : Task = 1 Result = 22259 Elapsed = 0.00
+./a.out : Task = 2 Result = 72581 Elapsed = 0.00
+./a.out : Task = 3 Result = 35946 Elapsed = 0.00
+./a.out : Task = 4 Result = 1019 Elapsed = 0.00
+./a.out : Task = 5 Result = 10 Elapsed = 0.00
+
+./a.out 0 11 test_1e4.txt 
+./a.out : Task = 1 Result = 23194 Elapsed = 0.00
+./a.out : Task = 2 Result = 81872 Elapsed = 0.00
+./a.out : Task = 3 Result = 36906 Elapsed = 0.00
+./a.out : Task = 4 Result = 1890 Elapsed = 0.00
+./a.out : Task = 5 Result = 462 Elapsed = 0.00
+
+./a.out 0 12 test_1e4.txt 
+./a.out : Task = 1 Result = 24238 Elapsed = 0.00
+./a.out : Task = 2 Result = 90301 Elapsed = 0.00
+./a.out : Task = 3 Result = 38164 Elapsed = 0.00
+./a.out : Task = 4 Result = 2778 Elapsed = 0.00
+./a.out : Task = 5 Result = 4116 Elapsed = 0.00
+
+./a.out 0 13 test_1e4.txt 
+./a.out : Task = 1 Result = 25161 Elapsed = 0.00
+./a.out : Task = 2 Result = 98098 Elapsed = 0.00
+./a.out : Task = 3 Result = 39867 Elapsed = 0.00
+./a.out : Task = 4 Result = 2379 Elapsed = 0.00
+./a.out : Task = 5 Result = 16523 Elapsed = 0.00
+
+./a.out 0 14 test_1e4.txt 
+./a.out : Task = 1 Result = 26057 Elapsed = 0.00
+./a.out : Task = 2 Result = 106267 Elapsed = 0.00
+./a.out : Task = 3 Result = 41267 Elapsed = 0.00
+./a.out : Task = 4 Result = 836 Elapsed = 0.00
+./a.out : Task = 5 Result = 24836 Elapsed = 0.00
+
+
+==============test_1e6.txt==============
+
+./a.out 5 0 test_1e6.txt 
+R93ZV2sn2HqeJzygETSiWG58I0YpAunT2LimTF8yDO38mcTiFOW3TZBZul2JB9WnoObyYbbAaIxu6dC0rZMjIHRb41vJ0Nzc3FAIxXIAVlnoG64qWj83FNct 585634184
+  BToQwu4VzEvtQHgdK5bDQWjkGMcej2sJvIXcGU9TkfBn7ubTm4GnpLlxPUefzY4BmkeoVOjnlGmNKYKdZ2CZ5nWVuSnhFgdcEugfSXZSxcyg1ysAbPjL02WL 796515562
+    4cyaGHZKMtiaaJT8frGN3UyqxVPEaqnrNKrKNSLSddDvrFXKljRr9TpBgx2dDgFqH7vUw56ZWbZZZgHCXtnWhpvatT31EUHRqgA29VcHYZvZ5D5zeJ5juwyP 423611193
+      343pMt4Ysic7euVyIECkhSam2nUHUP7jtOfJmSfKBChVJT6BCbv5OUY073TfvAolygm1x8hBI9c3TmUjsYD1Sjwn9dt2ghiMazUIPoDZ6DxftXuebBW4L4dh 340400905
+        1jrlzh4M9ZRx52JX8jNprtoGsf2NsBKu1Qme0aOQNnAwdIS4bE9LM2ex1vcYNw0VXj53iRjrF9HtP3wxXrsCBJtAJCexcgR6OALEZnq8IMAYo1Ta7dP8I0nR 1374621898
+        3fqbnl0rGy4jV3t56S1tkx9LfH4GLU0DnSxkK528mxAO4o0qWzykxoDLcLNF8mpiCQNz40GVkeBXiM2JCrOpjjFOLloFzAe9XYhVJsBY1sD7SWvJodXT9Zu5 546069761
+      8frJl8O0mOtFq8f5avTTKbNigKj6JDcZeZG4EdTltPA0Pmyns5Zm0CxtaNyhX1LacP2yqwuCEnjiweCqN5eyf2LsqYK3KceIqnvpvidPCfPiiV98oK5x0myE 722253262
+        6xA1eGXjTG57GaCz2WbXBqp8q3fiUQ1KY7vfVFEhKuflw0vZF2SkYID9QANd4HByn2b38zmcLTXZ5SYMZex8LOxsZ66FpbUUoGCQ9HIeNmhFyEoZGiaS0KhR 1415679264
+        A9ICTZtzBgVc2Se1K6PLNvRUjeikRyHtNAhu3rTefiVd49QMQcKkF6ZZzV2OhLT5hIZjzuG9fqRG1zAHT3AnDfyAeTXwm0X3LJcyiyXEkmAlLBZolpVU9ci1 1172251962
+    IAIp1Y4MR4xIprFFtaiFyG4Z757uBMmYIw89XPH90HZn5FDB6vBwZ3leaODhybPhZUfz4pXQpx7uTs12epSIsLB2AXx5A0hW88hyLbMIPEZ3O5KHiRXAG0bx 1843363037
+      E9WWZKpioRqwtI1MM2PYAZgYdFGKW1mEZV3ehIvvGC3konQfoQA2UZb1lg9TxkvUI2cQYK6tddsYBwhIJERiy85tjpgRQmurKvtUNxviD58qL4PN6pa9aB7U 1767177367
+        Ctxc07Gb20OgPuzskZ47Wjm1eBqvVKljZJIj1GHqkXjBAJXNjZN6JEHq7cUG1JI7Nz8gwmsa5EW1YjFD1XIhhnkfEfJxmZBFE435osLg1DiioktALGkUjIKO 1516209601
+        FxR5EfEl4x7XMTSHucbHQg4XUIHf2yDyo0wpf3bljGeYlCRB7hGrt62QlxRsNLor94Sms4MzdvKgFSkvYUSOUJYbhM656rbdwwEd7QDeYEtTQ3ZcNWnBS3gp 819973235
+      MuRCmw0DpXByrf9ogm0Wb44kpq7Y8EGAsxiQfMpPTT9YadCJi96fjClZceydG9Eoci9kpLit5J4T3LBMYLntPv50vcrEmpCLUGOd319trpLvsb348aAgNEZQ 604435276
+        KXQI00Usaz4AtY42vQkWN5BgNg0u1IkxjMr1CeMGHKpY8yLU7PxIwB1u8TD3z6zkeBiT3N4d9Q90k97Hz7O4xc5YM3LJYMPGEgtnyZLfAIetiozAYhsx4fxr 52237659
+        PMVgSr8VzXZHKob6Tl2xbNh0MFyzmTcGtsLtIZnWLiqSRhto1i0HPsyQHHoRx0xFoON16M7PbJC1cv54tMzPl1BXOW63tyPhpOHnSDAyWzGkYMa9KrkA1BlD 1836159870
+  h250wIrjjQnhtflhGKJ6PIXbXa5u1LdGtwzSVj3kxFMyyCu6vghuaWJSqzzRms1iJtv1R8dkCo7G8udThKSwdHU3x0PO3GEnMBUzvH9gSBkupka0EBtFjvaA 900621698
+    ZUyan3TsNyQM5IOYH9Szah58e6uc7V3XRh4ZGVAUfd0F2y3RvHDWnaEdFCZZHHMHcHAAB9ppHMP3dbdjluI0w0nGfS7Elh6tPZFOCuzqtsKj1DlsiGSRzCHV 1896837197
+      WNyckfKtFgFuTrsUsMXuiZGThXmnZtlmsGqn66MAheevMwsRGom7m6nCYfnfEaWQH0QXdljfz3eSWH00xlJiRnE6iTUgW89KkNqQPgzZBq4ZdoiLzg7oQvaY 1614089504
+        TbToAelqwCnMI81VMQzJXUFn9yflc3lrLGTcAL1a281yAXnXAfLuIAed7A1kDijN0NDlCNuaRmtgQihBXjsOOQ8JDEWY5t4BI3CtYN7QJD22WSRBF5ea7OIa 1806670673
+        XeSWB02w54igQ9OOYGdvzONaztJqDDIbj3M058O0kwQRPIwF6r4Y5PjZOHNvzf9Ki7bzjC5MOreKPAKWA5po4dFQOKvrMj627BXAepzuCqQStSiAIIkuOdms 605015063
+      eHWC1HrbhkRPLLYWdMCTYoM7HbfMMjDW0dyQhece6xRMa8rrUZc12MzJAlxXd83s1OhuF2SIQUKx51pzxvjPGHiVFhFyntUgVo8hYdcespX54UFdZYeM2y2a 1349253875
+        cAnGRu4fKdU4QwWzkOg45I8zHBU8xRYmbMNkWmGJnwwZgW7nYHzKq2vOTfv5C1PssFKEQu2wl6FAwnbmV4TyMGw79Xj5k6qfFjJe1xHEj4ov95AYTW0HGxec 1887827902
+        ffTcefPwFdgAuMIEcI0tcoN4yOL0FWHa40q2PIctkEdjpEQ9N2TDQacDPHioIefUcwcZGcWd66j1GHjUNPKKn0IZqdTmcUnqVMwPv1A8Ueouk5K88wriqdja 2050496678
+    sIvu1eSVKetnj2T9v6PAMdYOmXf53V0mHeMrBfHwDDm6ixayUNie4CrelOmYSf0jFej8QQ5p2QMeYtiNFzsBWiOaM22XxT8iIxRniIsOElfZCqeemS8n1eIb 1132660906
+      njUawFCvG55gYwwuvXSTQnUgplMNoK6SvEFDElySvkzUILB2aJoBHpplEDov1YVbS1aKo9xNsx6DzRdzmCLeXl5CkMnRP9JwtexiT09hjLsMCp7OKIOVXfDj 532447268
+        iwttjUn8BYUP3NSBRX0DQYiaHTpqKHUEfz0SXMAKBUz00Wvw3im1MGVfhjGSca8Eqrn5doHM2zT8e9jO8xeGOYvVXDD2Mr8qhvGLHMRMmGuxWSR3rxTsAjOw 184483257
+        q4SlBthsmpOJhpVH9nCCFLwyn2wyBPpUfT63WbT5WLBauC2B5ebTa0oWPLdo4JLzMGlxfv20tkFkxo9vWovxoBpjRBO0kJubzlrTNeKoSI2BmSEcR72LA9be 1364415239
+      wWTiyhK1YJMqM0lCd1wfo2Si8p9YbieykUuXo42ambSV11eJKXCnpmoOy09eCLuHqxwM4RWhxYpBl8VksUdZY4xwWu7RNWqAUr1FzaLjF0dZKnyecrehMbiG 1788055907
+        uq1qNoNaq7FhOk8rjQUkiGonTWp4Co1hlrxtBButrxrOHtEkoUcQNbbpb20zwK1ce322mxPXRdNGInR5M8eQ0pv97VnLNkHxY8BY0PhnybYQVGYAx3H39JFV 150159263
+        yFsUWFpUssADiKTi8PZBthQg7P3uRYTrLoPMStAu9lc9LloaQetEdcHUUtUs64RC5n5syVaV1khM1QOxngG8KU9KJATe6WnwGCdnHPiC1oNORUK9isN2AcRO 1761802557
+
+./a.out : Task = 1 Result = 0 Elapsed = 0.07
+./a.out : Task = 2 Result = 0 Elapsed = 0.08
+./a.out : Task = 3 Result = 0 Elapsed = 0.08
+./a.out : Task = 4 Result = 1 Elapsed = 0.00
+./a.out : Task = 5 Result = 0 Elapsed = 0.05
+
+./a.out 0 1 test_1e6.txt 
+./a.out : Task = 1 Result = 428556 Elapsed = 0.07
+./a.out : Task = 2 Result = 428556 Elapsed = 0.08
+./a.out : Task = 3 Result = 714334 Elapsed = 0.09
+./a.out : Task = 4 Result = 2 Elapsed = 0.00
+./a.out : Task = 5 Result = 0 Elapsed = 0.05
+
+./a.out 0 10 test_1e6.txt 
+./a.out : Task = 1 Result = 2215492 Elapsed = 0.07
+./a.out : Task = 2 Result = 7245340 Elapsed = 0.09
+./a.out : Task = 3 Result = 3612003 Elapsed = 0.06
+./a.out : Task = 4 Result = 1024 Elapsed = 0.00
+./a.out : Task = 5 Result = 0 Elapsed = 0.05
+
+./a.out 0 100 test_1e6.txt 
+./a.out : Task = 1 Result = 5354141 Elapsed = 0.08
+./a.out : Task = 2 Result = 19402254 Elapsed = 0.08
+./a.out : Task = 3 Result = 7102274 Elapsed = 0.09
+./a.out : Task = 4 Result = 0 Elapsed = 0.05
+./a.out : Task = 5 Result = 0 Elapsed = 0.05
+
+./a.out 0 1000 test_1e6.txt 
+./a.out : Task = 1 Result = 8731480 Elapsed = 0.08
+./a.out : Task = 2 Result = 19402254 Elapsed = 0.08
+./a.out : Task = 3 Result = 10560069 Elapsed = 0.16
+./a.out : Task = 4 Result = 0 Elapsed = 0.05
+./a.out : Task = 5 Result = 0 Elapsed = 0.05
+
+./a.out 0 10000 test_1e6.txt 
+./a.out : Task = 1 Result = 12125094 Elapsed = 0.08
+./a.out : Task = 2 Result = 19402254 Elapsed = 0.08
+./a.out : Task = 3 Result = 13954105 Elapsed = 0.27
+./a.out : Task = 4 Result = 0 Elapsed = 0.05
+./a.out : Task = 5 Result = 0 Elapsed = 0.05
+
+./a.out 0 100000 test_1e6.txt 
+./a.out : Task = 1 Result = 15368688 Elapsed = 0.08
+./a.out : Task = 2 Result = 19402254 Elapsed = 0.10
+./a.out : Task = 3 Result = 17402255 Elapsed = 0.40
+./a.out : Task = 4 Result = 0 Elapsed = 0.05
+./a.out : Task = 5 Result = 0 Elapsed = 0.05
+
+./a.out 0 1000000 test_1e6.txt 
+./a.out : Task = 1 Result = 19402254 Elapsed = 0.08
+./a.out : Task = 2 Result = 19402254 Elapsed = 0.08
+./a.out : Task = 3 Result = 19402254 Elapsed = 0.38
+./a.out : Task = 4 Result = 0 Elapsed = 0.04
+./a.out : Task = 5 Result = 0 Elapsed = 0.05
+
+./a.out 0 16 test_1e6.txt 
+./a.out : Task = 1 Result = 2794144 Elapsed = 0.08
+./a.out : Task = 2 Result = 12213424 Elapsed = 0.08
+./a.out : Task = 3 Result = 4388892 Elapsed = 0.07
+./a.out : Task = 4 Result = 65203 Elapsed = 0.00
+./a.out : Task = 5 Result = 1424 Elapsed = 0.05
+
+./a.out 0 17 test_1e6.txt 
+./a.out : Task = 1 Result = 2876985 Elapsed = 0.08
+./a.out : Task = 2 Result = 13032426 Elapsed = 0.09
+./a.out : Task = 3 Result = 4449963 Elapsed = 0.07
+./a.out : Task = 4 Result = 125196 Elapsed = 0.01
+./a.out : Task = 5 Result = 28084 Elapsed = 0.06
+
+./a.out 0 18 test_1e6.txt 
+./a.out : Task = 1 Result = 2956203 Elapsed = 0.07
+./a.out : Task = 2 Result = 13923353 Elapsed = 0.08
+./a.out : Task = 3 Result = 4511888 Elapsed = 0.07
+./a.out : Task = 4 Result = 209499 Elapsed = 0.01
+./a.out : Task = 5 Result = 257904 Elapsed = 0.05
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

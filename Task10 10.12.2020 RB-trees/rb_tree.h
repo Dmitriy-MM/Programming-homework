@@ -174,7 +174,7 @@ class RB_tree
 				root->parent = parent;
 				to_balance (x);
 			}
-			else if (*x <= *root)
+			else if (*x < *root)
 				add_to_subtree (root->left, x, root);
 			else
 				add_to_subtree (root->right, x, root);
